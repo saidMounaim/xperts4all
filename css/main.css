@@ -1663,6 +1663,7 @@ body.menu-is-open {
 }
 
 .header-logo a {
+  width: 300px;
   display: block;
   padding: 0;
   outline: 0;
@@ -1673,8 +1674,9 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 155px;
   height: 36px;
+  float: left;
+  margin-top: 7px;
 }
 
 /* ------------------------------------------------------------------- 
