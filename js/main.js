@@ -121,12 +121,12 @@
     var ssPhotoswipe = function() {
         var items = [],
             $pswp = $('.pswp')[0],
-            $folioItems = $('.item-folio');
+            $folioItems = $('.item-folio__thumb');
 
         // get items
         $folioItems.each( function(i) {
 
-            var $folio = $(this),
+            var $folio = $('.item-folio'),
                 $thumbLink =  $folio.find('.thumb-link'),
                 $title = $folio.find('.item-folio__title'),
                 $caption = $folio.find('.item-folio__caption'),

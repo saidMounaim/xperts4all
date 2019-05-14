@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/timesala.css" >
+    <title>Islamic Prayer Times</title>
+</head>
+<body>
+    
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-light bg-info">
+        <span class="navbar-brand mb-0 h1">Islamic Prayer Times</span>
+    </nav>
+    <!-- End  Navbar -->
+    
+    <!-- Start Form  -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Welcome to Islamic Prayer Times</h1>
+                        <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+                        <form id="formPray" >
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="my-input">Year</label>
+                                    <input id="year" value="2019" class="form-control" type="text">
+                                </div>                                
+                            </div>
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label for="my-input">City</label>
+                                    <select id="city" class="form-control">
+                                        <option value="MA->Casablanca">Casablanca</option>
+                                        <option value="MA->Fès">Fès</option>
+                                        <option value="MA->Tanger">Tanger</option>
+                                        <option value="MA->Marrakech">Marrakech</option>
+                                        <option value="MA->Salé">Salé</option>
+                                        <option value="MA->Meknes">Meknes</option>
+                                        <option value="MA->Rabat">Rabat</option>
+                                        <option value="MA->Témara">Témara</option>
+                                        <option value="MA->Agadir">Agadir</option>
+                                        <option value="MA->Oujda">Oujda</option>
+                                        <option value="MA->Tétouan">Tétouan</option>
+                                        <option value="MA->Kénitra">Kénitra</option>
+                                        <option value="MA->Beni Mellal">Beni Mellal</option>
+                                        <option value="MA->Nador">Nador</option>
+                                        <option value="MA->Safi">Safi</option>
+                                        <option value="MA->Khouribga">Khouribga</option>
+                                        <option value="MA->El Jadida">El Jadida</option>
+                                        <option value="MA->Berkane">Berkane</option>
+                                        <option value="MA->Taza">Taza</option>
+                                        <option value="MA->Mohammédia">Mohammédia</option>
+                                        <option value="MA->Laâyoune">Laâyoune</option>
+                                        <option value="MA->Khémisset">Khémisset</option>
+                                        <option value="MA->Taourirt">Taourirt</option>
+                                    </select>
+                                </div>                                
+                            </div>
+                            <div class="col-md-3">
+                                <input type="submit" class="btn btn-primary mt-4">
+                            </div>
+                        </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Form -->
+
+    <!-- Start Prayer Time -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="chartPie"></div>
+                <div id="chart1"></div>
+            </div>
+            <div class="col-md-12 offset-md-3">
+                <div class="days">
+                    <span class="day">day</span> : <span style="color:#fff;" id="day"></span> |
+                    <span class="day">Fajr</span> : <span style="color:#fff;" id="Fajr"></span> |
+                    <span class="day">Dohr</span> : <span style="color:#fff;" id="Dhuhr"></span> |
+                    <span class="day">Asr</span> : <span style="color:#fff;" id="Asr"></span> |
+                    <span class="day">Maghreb</span> : <span style="color:#fff;" id="Maghrib"></span> |
+                    <span class="day">Ishaa</> : <span style="color:#fff;" id="Isha"></span> |
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-info">© 2019 Copyright:
+            <a href="https://xperts4all.netlify.com"> xperts4all</a>
+        </div>
+        <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script src="js/timesala.js"></script>
+</body>
+</html>
