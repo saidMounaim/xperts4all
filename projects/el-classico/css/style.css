@@ -1,0 +1,125 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    background: #2d3436;
+    color: #fff;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.liga-all {
+  background-image: url("../images/liga-header.jpg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.copa-all {
+  background-image: url("../images/liga-header.jpg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.back-header {
+    font-family: 'Exo 2', sans-serif;
+    background-image: url('../images/back-header.jpg');
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+span {
+    font-size: 25px;
+    color: #fff;
+}
+
+.stats {
+    background: rgba(52,73,94 ,1);
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+}
+
+.table {
+    margin-top: 13% !important;
+}
+
+.logo-team {
+    width: 50px;
+    height: 45px;
+    margin-top: -1px;
+}
+
+.stats-body {
+    background: rgba(44,62,80,0.80);
+    height: 350px;
+}
+
+thead:hover,
+tbody tr:hover {
+    cursor: pointer;
+    background: rgba(44,62,80 ,1);
+}
+
+.chart div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+    }
+    
+circle.FCB {
+fill: red;
+}
+circle.RM {
+fill: gray;
+}
+rect.FCB {
+fill: red;
+}
+rect.RM {
+fill: gray;
+}
+
+.header h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+line {
+    background: #fff;
+}
+
+text {
+    color: #fff;
+}
+
+.container-fluid {
+    padding-right: 35px;
+    padding-left: 78px;
+}
+
+.modal-title {
+    color: #333;
+}
+
+.modal-dialog .close span {
+    color: #333;
+}
+
+.img-comp {
+    width: 100px;
+    height: 100px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.img-comp:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}

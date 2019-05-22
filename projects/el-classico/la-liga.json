@@ -1,0 +1,6326 @@
+[
+  {
+    "competition ": "La Liga",
+    "date": "2 March 2019",
+    "round": "26",
+    "homeTeam": "Real Madrid",
+    "score": "0–1",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Rakitić",
+        "minute": "26",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "28 October 2018",
+    "round": "10",
+    "homeTeam": "Barcelona",
+    "score": "5–1",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "L. Suárez",
+        "minute": "30",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "L. Suárez",
+        "minute": "75",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "L. Suárez",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Coutinho",
+        "minute": "11",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ar. Vidal",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Marcelo",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "6 May 2018",
+    "round": "36",
+    "homeTeam": "Barcelona",
+    "score": "2–2",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "L. Suárez",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "52",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "14",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bale",
+        "minute": "72",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 December 2017",
+    "round": "17",
+    "homeTeam": "Real Madrid",
+    "score": "0–3",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "L. Suárez",
+        "minute": "54",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "64",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Al. Vidal",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 April 2017",
+    "round": "32",
+    "homeTeam": "Real Madrid",
+    "score": "2–3",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Casemiro",
+        "minute": "28",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rodríguez",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Messi",
+        "minute": "33",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Rakitić",
+        "minute": "73",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "3 December 2016",
+    "round": "14",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "L. Suárez",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ramos",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "2 April 2016",
+    "round": "31",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Piqué",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Benzema",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "21 November 2015",
+    "round": "12",
+    "homeTeam": "Real Madrid",
+    "score": "0–4",
+    "scoreMiTemps": "(0–2)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "L. Suárez",
+        "minute": "11",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "L. Suárez",
+        "minute": "74",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Neymar",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Iniesta",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 4,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "22 March 2015",
+    "round": "28",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Mathieu",
+        "minute": "19",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "L. Suárez",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 October 2014",
+    "round": "9",
+    "homeTeam": "Real Madrid",
+    "score": "3–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "C. Ronaldo",
+        "minute": "35",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pepe",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Benzema",
+        "minute": "61",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Neymar",
+        "minute": "4",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 March 2014",
+    "round": "29",
+    "homeTeam": "Real Madrid",
+    "score": "3–4",
+    "scoreMiTemps": "(2–2)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Benzema",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Benzema",
+        "minute": "24",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "55",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Iniesta",
+        "minute": "7",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "42",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "65",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "84",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 4,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "26 October 2013",
+    "round": "10",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Neymar",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Sánchez",
+        "minute": "78",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Jesé",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "2 March 2013",
+    "round": "26",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Benzema",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Ramos",
+        "minute": "81",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Messi",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 October 2012",
+    "round": "7",
+    "homeTeam": "Barcelona",
+    "score": "2–2",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Messi",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "60",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "22",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "66",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "21 April 2012",
+    "round": "34",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Sánchez",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Khedira",
+        "minute": "16",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "73",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 December 2011",
+    "round": "16",
+    "homeTeam": "Real Madrid",
+    "score": "1–3",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Benzema",
+        "minute": "1",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Sánchez",
+        "minute": "29",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Xavi",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Fàbregas",
+        "minute": "66",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "16 April 2011",
+    "round": "32",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "C. Ronaldo",
+        "minute": "81",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Messi",
+        "minute": "53",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "29 November 2010",
+    "round": "13",
+    "homeTeam": "Barcelona",
+    "score": "5–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Xavi",
+        "minute": "9",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pedro",
+        "minute": "17",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Villa",
+        "minute": "54",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Villa",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Jeffrén",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 April 2010",
+    "round": "31",
+    "homeTeam": "Real Madrid",
+    "score": "0–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Messi",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pedro",
+        "minute": "55",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "29 November 2009",
+    "round": "12",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Ibrahimović",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "2 May 2009",
+    "round": "34",
+    "homeTeam": "Real Madrid",
+    "score": "2–6",
+    "scoreMiTemps": "(1–3)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Higuaín",
+        "minute": "14",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Ramos",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Henry",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Henry",
+        "minute": "58",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Puyol",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "36",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "75",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Piqué",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 6,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "13 December 2008",
+    "round": "15",
+    "homeTeam": "Barcelona",
+    "score": "2–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Eto'o",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 May 2008",
+    "round": "36",
+    "homeTeam": "Real Madrid",
+    "score": "4–1",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Raúl",
+        "minute": "12",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Robben",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Higuaín",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Van Nistelrooy",
+        "minute": "77",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Henry",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 December 2007",
+    "round": "17",
+    "homeTeam": "Barcelona",
+    "score": "0–1",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Baptista",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 March 2007",
+    "round": "26",
+    "homeTeam": "Barcelona",
+    "score": "3–3",
+    "scoreMiTemps": "(2–2)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Messi",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "27",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Messi",
+        "minute": "88",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Van Nistelrooy",
+        "minute": "4",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Van Nistelrooy",
+        "minute": "12",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Ramos",
+        "minute": "72",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "22 October 2006",
+    "round": "7",
+    "homeTeam": "Real Madrid",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Raúl",
+        "minute": "3",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Van Nistelrooy",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "1 April 2006",
+    "round": "31",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Ronaldinho",
+        "minute": "20",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": "36",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 November 2005",
+    "round": "12",
+    "homeTeam": "Real Madrid",
+    "score": "0–3",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Eto'o",
+        "minute": "14",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ronaldinho",
+        "minute": "59",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ronaldinho",
+        "minute": "77",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 April 2005",
+    "round": "31",
+    "homeTeam": "Real Madrid",
+    "score": "4–2",
+    "scoreMiTemps": "(3–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Zidane",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": "19",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Raúl",
+        "minute": "45",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Owen",
+        "minute": "65",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Eto'o",
+        "minute": "28",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ronaldinho",
+        "minute": "73",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "20 November 2004",
+    "round": "12",
+    "homeTeam": "Barcelona",
+    "score": "3–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Eto'o",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Van Bronckhorst",
+        "minute": "42",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ronaldinho",
+        "minute": "75",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 April 2004",
+    "round": "34",
+    "homeTeam": "Real Madrid",
+    "score": "1–2",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Solari",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Kluivert",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Xavi",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "6 December 2003",
+    "round": "15",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Kluivert",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Roberto Carlos",
+        "minute": "37",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": "73",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 April 2003",
+    "round": "30",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Ronaldo",
+        "minute": "16",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Luis Enrique",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 November 2002",
+    "round": "11",
+    "homeTeam": "Barcelona",
+    "score": "0–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [],
+    "scoresFCB": 0,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "16 March 2002",
+    "round": "30",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Xavi",
+        "minute": "58",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Zidane",
+        "minute": "38",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "4 November 2001",
+    "round": "11",
+    "homeTeam": "Real Madrid",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Morientes",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Figo",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "3 March 2001",
+    "round": "25",
+    "homeTeam": "Real Madrid",
+    "score": "2–2",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Raúl",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Raúl",
+        "minute": "36",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rivaldo",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Rivaldo",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "21 October 2000",
+    "round": "6",
+    "homeTeam": "Barcelona",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Luis Enrique",
+        "minute": "26",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Simão",
+        "minute": "79",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "26 February 2000",
+    "round": "26",
+    "homeTeam": "Real Madrid",
+    "score": "3–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Roberto Carlos",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Anelka",
+        "minute": "19",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Morientes",
+        "minute": "52",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "13 October 1999",
+    "round": "7",
+    "homeTeam": "Barcelona",
+    "score": "2–2",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Rivaldo",
+        "minute": "28",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Figo",
+        "minute": "49",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Raúl",
+        "minute": "26",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Raúl",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "14 February 1999",
+    "round": "22",
+    "homeTeam": "Barcelona",
+    "score": "3–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Luis Enrique",
+        "minute": "4",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Luis Enrique",
+        "minute": "36",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Rivaldo",
+        "minute": "80",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 September 1998",
+    "round": "3",
+    "homeTeam": "Real Madrid",
+    "score": "2–2",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Raúl",
+        "minute": "7",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Raúl",
+        "minute": "25",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Kluivert",
+        "minute": "12",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Anderson",
+        "minute": "82",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 March 1998",
+    "round": "28",
+    "homeTeam": "Barcelona",
+    "score": "3–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Anderson",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Figo",
+        "minute": "80",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Giovanni",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "1 November 1997",
+    "round": "9",
+    "homeTeam": "Real Madrid",
+    "score": "2–3",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Raúl",
+        "minute": "48",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Šuker",
+        "minute": "61",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rivaldo",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Luis Enrique",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Giovanni",
+        "minute": "79",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 May 1997",
+    "round": "37",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Ronaldo",
+        "minute": "44",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 December 1996",
+    "round": "16",
+    "homeTeam": "Real Madrid",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Šuker",
+        "minute": "24",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Mijatović",
+        "minute": "48",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 February 1996",
+    "round": "26",
+    "homeTeam": "Barcelona",
+    "score": "3–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Kodro",
+        "minute": "37",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Kodro",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Figo",
+        "minute": "71",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 September 1995",
+    "round": "5",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Raúl",
+        "minute": "12",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Roger",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "27 May 1995",
+    "round": "35",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Nadal",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 January 1995",
+    "round": "16",
+    "homeTeam": "Real Madrid",
+    "score": "5–0",
+    "scoreMiTemps": "(3–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Zamorano",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Zamorano",
+        "minute": "21",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Zamorano",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Luis Enrique",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Amavisca",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 5
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 May 1994",
+    "round": "37",
+    "homeTeam": "Real Madrid",
+    "score": "0–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Amor",
+        "minute": "77",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "8 January 1994",
+    "round": "18",
+    "homeTeam": "Barcelona",
+    "score": "5–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Romário",
+        "minute": "24",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Romário",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Romário",
+        "minute": "81",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Koeman",
+        "minute": "47",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Iglesias",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 January 1993",
+    "round": "20",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Zamorano",
+        "minute": "9",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Míchel",
+        "minute": "41",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Amor",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "5 September 1992",
+    "round": "1",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Bakero",
+        "minute": "4",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Stoichkov",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Míchel",
+        "minute": "71",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 March 1992",
+    "round": "25",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Koeman",
+        "minute": "36",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Hierro",
+        "minute": "66",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 October 1991",
+    "round": "6",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Prosinečki",
+        "minute": "19",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Koeman",
+        "minute": "58",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "8 June 1991",
+    "round": "38",
+    "homeTeam": "Real Madrid",
+    "score": "1–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Aldana",
+        "minute": "47",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 January 1991",
+    "round": "19",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Laudrup",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Spasić",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": true,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Butragueño",
+        "minute": "28",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "15 February 1990",
+    "round": "25",
+    "homeTeam": "Real Madrid",
+    "score": "3–2",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Míchel",
+        "minute": "24",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Butragueño",
+        "minute": "45",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Hugo Sánchez",
+        "minute": "46",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Salinas",
+        "minute": "54",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Salinas",
+        "minute": "57",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 October 1989",
+    "round": "6",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Salinas",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Koeman",
+        "minute": "74",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Koeman",
+        "minute": "89",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Hugo Sánchez",
+        "minute": "5",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "1 April 1989",
+    "round": "27",
+    "homeTeam": "Barcelona",
+    "score": "0–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [],
+    "scoresFCB": 0,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "22 October 1988",
+    "round": "8",
+    "homeTeam": "Real Madrid",
+    "score": "3–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Hugo Sánchez",
+        "minute": "57",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Aldana",
+        "minute": "59",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Gordillo",
+        "minute": "81",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bakero",
+        "minute": "21",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Carrasco",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 April 1988",
+    "round": "35",
+    "homeTeam": "Barcelona",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Carrasco",
+        "minute": "1",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Lineker",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "2 January 1988",
+    "round": "16",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Hugo Sánchez",
+        "minute": "22",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Hugo Sánchez",
+        "minute": "41",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Schuster",
+        "minute": "30",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 May 1987",
+    "round": "40",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Lineker",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Roberto",
+        "minute": "60",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Hugo Sánchez",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "12 April 1987",
+    "round": "35",
+    "homeTeam": "Real Madrid",
+    "score": "0–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [],
+    "scoresFCB": 0,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "31 January 1987",
+    "round": "25",
+    "homeTeam": "Barcelona",
+    "score": "3–2",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Lineker",
+        "minute": "2",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Lineker",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Lineker",
+        "minute": "47",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Valdano",
+        "minute": "61",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Hugo Sánchez",
+        "minute": "80",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "8 October 1986",
+    "round": "8",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Hugo Sánchez",
+        "minute": "27",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pedraza",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "8 March 1986",
+    "round": "28",
+    "homeTeam": "Real Madrid",
+    "score": "3–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Maceda",
+        "minute": "64",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Valdano",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Butragueño",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Amarilla",
+        "minute": "51",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "9 November 1985",
+    "round": "11",
+    "homeTeam": "Barcelona",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Marcos",
+        "minute": "2",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Calderé",
+        "minute": "72",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 December 1984",
+    "round": "18",
+    "homeTeam": "Barcelona",
+    "score": "3–2",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Gerardo",
+        "minute": "25",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Migueli",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Esteban Vigo",
+        "minute": "79",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Sanchís",
+        "minute": "30",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Butragueño",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "2 September 1984",
+    "round": "1",
+    "homeTeam": "Real Madrid",
+    "score": "0–3",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Ángel",
+        "minute": "46",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Archibald",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Calderé",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 February 1984",
+    "round": "25",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Juanito",
+        "minute": "16",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Santillana",
+        "minute": "80",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Maradona",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "22 October 1983",
+    "round": "8",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(1–2)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Quini",
+        "minute": "17",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Juanito",
+        "minute": "12",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Santillana",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "26 March 1983",
+    "round": "30",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Maradona",
+        "minute": "45",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Perico Alonso",
+        "minute": "77",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Juanito",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "27 November 1982",
+    "round": "13",
+    "homeTeam": "Real Madrid",
+    "score": "0–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Esteban Vigo",
+        "minute": "14",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Quini",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "18 April 1982",
+    "round": "33",
+    "homeTeam": "Real Madrid",
+    "score": "3–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Rafael Cortés",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Stielike",
+        "minute": "45",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Isidro",
+        "minute": "82",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Quini",
+        "minute": "42",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "20 December 1981",
+    "round": "16",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Alexanko",
+        "minute": "7",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Quini",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Quini",
+        "minute": "60",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Juanito",
+        "minute": "49",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "29 March 1981",
+    "round": "30",
+    "homeTeam": "Real Madrid",
+    "score": "3–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Juanito",
+        "minute": "53",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Santillana",
+        "minute": "71",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Stielike",
+        "minute": "76",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 November 1980",
+    "round": "13",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Schuster",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Quini",
+        "minute": "64",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Juanito",
+        "minute": "22",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 February 1980",
+    "round": "20",
+    "homeTeam": "Barcelona",
+    "score": "0–2",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "García Hernández",
+        "minute": "61",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Santillana",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 September 1979",
+    "round": "3",
+    "homeTeam": "Real Madrid",
+    "score": "3–2",
+    "scoreMiTemps": "(3–2)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Santillana",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Juanito",
+        "minute": "8",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Cunningham",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Landáburu",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Krankl",
+        "minute": "36",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "17 February 1979",
+    "round": "21",
+    "homeTeam": "Barcelona",
+    "score": "2–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Krankl",
+        "minute": "52",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Asensi",
+        "minute": "61",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 September 1978",
+    "round": "4",
+    "homeTeam": "Real Madrid",
+    "score": "3–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Santillana",
+        "minute": "29",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Santillana",
+        "minute": "46",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Jensen",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Neeskens",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "5 April 1978",
+    "round": "29",
+    "homeTeam": "Real Madrid",
+    "score": "4–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Jensen",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Jensen",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Juanito",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Santillana",
+        "minute": "80",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "4 December 1977",
+    "round": "12",
+    "homeTeam": "Barcelona",
+    "score": "2–3",
+    "scoreMiTemps": "(1–2)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Rexach",
+        "minute": "30",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Rexach",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Jensen",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Santillana",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Stielike",
+        "minute": "54",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 January 1977",
+    "round": "20",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Pirri",
+        "minute": "2",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Cruyff",
+        "minute": "16",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 September 1976",
+    "round": "3",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Marcial",
+        "minute": "29",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Cruyff",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Heredia",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pirri",
+        "minute": "52",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 April 1976",
+    "round": "32",
+    "homeTeam": "Real Madrid",
+    "score": "0–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Rexach",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Heredia",
+        "minute": "64",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "28 December 1975",
+    "round": "15",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Neeskens",
+        "minute": "3",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Rexach",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pirri",
+        "minute": "64",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "11 May 1975",
+    "round": "32",
+    "homeTeam": "Barcelona",
+    "score": "0–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [],
+    "scoresFCB": 0,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "5 January 1975",
+    "round": "15",
+    "homeTeam": "Real Madrid",
+    "score": "1–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Juan Roberto Martínez",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "17 February 1974",
+    "round": "22",
+    "homeTeam": "Real Madrid",
+    "score": "0–5",
+    "scoreMiTemps": "(0–2)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Asensi",
+        "minute": "30",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Asensi",
+        "minute": "54",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Cruyff",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Juan Carlos",
+        "minute": "65",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Sotil",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "7 October 1973",
+    "round": "6",
+    "homeTeam": "Barcelona",
+    "score": "0–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [],
+    "scoresFCB": 0,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 February 1973",
+    "round": "22",
+    "homeTeam": "Real Madrid",
+    "score": "0–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [],
+    "scoresFCB": 0,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "1 October 1972",
+    "round": "5",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Barrios",
+        "minute": "52",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "3 April 1972",
+    "round": "28",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Asensi",
+        "minute": "11",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "28 November 1971",
+    "round": "11",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Grosso",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Asensi",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "14 February 1971",
+    "round": "22",
+    "homeTeam": "Barcelona",
+    "score": "0–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Grande",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 October 1970",
+    "round": "7",
+    "homeTeam": "Real Madrid",
+    "score": "0–1",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Zabalza",
+        "minute": "28",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "28 December 1969",
+    "round": "16",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Gallego",
+        "minute": "29",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "14 September 1969",
+    "round": "1",
+    "homeTeam": "Real Madrid",
+    "score": "3–3",
+    "scoreMiTemps": "(2–2)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Fleitas",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Fleitas",
+        "minute": "38",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Gento",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bustillo",
+        "minute": "3",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Bustillo",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Rexach",
+        "minute": "71",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "9 March 1969",
+    "round": "24",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Zaldúa",
+        "minute": "26",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gento",
+        "minute": "87",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "16 November 1968",
+    "round": "9",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Pirri",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "José Luis",
+        "minute": "75",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Zaldúa",
+        "minute": "19",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "9 April 1968",
+    "round": "27",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Zaldúa",
+        "minute": "12",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pirri",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 December 1967",
+    "round": "12",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Gento",
+        "minute": "65",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Zaldúa",
+        "minute": "78",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 March 1967",
+    "round": "25",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Fusté",
+        "minute": "7",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Fusté",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Amancio",
+        "minute": "42",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "20 November 1966",
+    "round": "10",
+    "homeTeam": "Real Madrid",
+    "score": "1–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Veloso",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "27 March 1966",
+    "round": "29",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Rifé",
+        "minute": "59",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Zaballa",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gento",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 December 1965",
+    "round": "14",
+    "homeTeam": "Real Madrid",
+    "score": "1–3",
+    "scoreMiTemps": "(1–3)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Félix Ruiz",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Fusté",
+        "minute": "7",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Fusté",
+        "minute": "8",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Zaldúa",
+        "minute": "34",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "28 February 1965",
+    "round": "24",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Ré",
+        "minute": "40",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pirri",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Serena",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "8 November 1964",
+    "round": "9",
+    "homeTeam": "Real Madrid",
+    "score": "4–1",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Amancio",
+        "minute": "16",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Amancio",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Amancio",
+        "minute": "74",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Serena",
+        "minute": "76",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Ré",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 March 1964",
+    "round": "27",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(1–2)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Zaldúa",
+        "minute": "27",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gento",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Puskás",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "15 December 1963",
+    "round": "12",
+    "homeTeam": "Real Madrid",
+    "score": "4–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Puskás",
+        "minute": "37",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Puskás",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Puskás",
+        "minute": "84",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "77",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "27 January 1963",
+    "round": "18",
+    "homeTeam": "Barcelona",
+    "score": "1–5",
+    "scoreMiTemps": "(1–2)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Ré",
+        "minute": "34",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Puskás",
+        "minute": "24",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Puskás",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Puskás",
+        "minute": "71",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "47",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Gento",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 5
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 September 1962",
+    "round": "3",
+    "homeTeam": "Real Madrid",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "di Stéfano",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "21 January 1962",
+    "round": "20",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Evaristo",
+        "minute": "4",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Evaristo",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Kocsis",
+        "minute": "40",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Félix Ruiz",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 September 1961",
+    "round": "5",
+    "homeTeam": "Real Madrid",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Puskás",
+        "minute": "14",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "del Sol",
+        "minute": "72",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "26 March 1961",
+    "round": "27",
+    "homeTeam": "Real Madrid",
+    "score": "3–2",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "del Sol",
+        "minute": "55",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "60",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Puskás",
+        "minute": "78",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Luis Suárez",
+        "minute": "80",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Kubala",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "4 December 1960",
+    "round": "12",
+    "homeTeam": "Barcelona",
+    "score": "3–5",
+    "scoreMiTemps": "(2–3)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Martínez",
+        "minute": "28",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Villaverde",
+        "minute": "34",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Kubala",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "3",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "81",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "del Sol",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Gento",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Gento",
+        "minute": "79",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 5
+  },
+  {
+    "competition ": "La Liga",
+    "date": "20 March 1960",
+    "round": "26",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Kocsis",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martínez",
+        "minute": "60",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Villaverde",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "58",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "29 November 1959",
+    "round": "11",
+    "homeTeam": "Real Madrid",
+    "score": "2–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Mateos",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "82",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "15 February 1959",
+    "round": "22",
+    "homeTeam": "Real Madrid",
+    "score": "1–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Herrera",
+        "minute": "79",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "26 October 1958",
+    "round": "7",
+    "homeTeam": "Barcelona",
+    "score": "4–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Evaristo",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Evaristo",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Evaristo",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Tejada",
+        "minute": "88",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 4,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "2 February 1958",
+    "round": "20",
+    "homeTeam": "Barcelona",
+    "score": "0–2",
+    "scoreMiTemps": "(0–2)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Marsal",
+        "minute": "34",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Héctor Rial",
+        "minute": "37",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "13 October 1957",
+    "round": "5",
+    "homeTeam": "Real Madrid",
+    "score": "3–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Kopa",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Héctor Rial",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "73",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "3 March 1957",
+    "round": "25",
+    "homeTeam": "Real Madrid",
+    "score": "1–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Joseito",
+        "minute": "21",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "11 November 1956",
+    "round": "10",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Luis Suárez",
+        "minute": "46",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "18 March 1956",
+    "round": "25",
+    "homeTeam": "Barcelona",
+    "score": "2–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Villaverde",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Villaverde",
+        "minute": "29",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "13 November 1955",
+    "round": "10",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Héctor Rial",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Marquitos",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Areta",
+        "minute": "77",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "6 March 1955",
+    "round": "26",
+    "homeTeam": "Barcelona",
+    "score": "2–2",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Basora",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Dagoberto Moll",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gento",
+        "minute": "19",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Gento",
+        "minute": "64",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "21 November 1954",
+    "round": "11",
+    "homeTeam": "Real Madrid",
+    "score": "3–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "di Stéfano",
+        "minute": "44",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Héctor Rial",
+        "minute": "66",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Joseito",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "21 February 1954",
+    "round": "22",
+    "homeTeam": "Barcelona",
+    "score": "5–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Tejada",
+        "minute": "14",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Tejada",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Moreno",
+        "minute": "74",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Manchón",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 October 1953",
+    "round": "7",
+    "homeTeam": "Real Madrid",
+    "score": "5–0",
+    "scoreMiTemps": "(4–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "di Stéfano",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "di Stéfano",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Roque Olsen",
+        "minute": "34",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Roque Olsen",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Molowny",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 5
+  },
+  {
+    "competition ": "La Liga",
+    "date": "5 April 1953",
+    "round": "26",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Moreno",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 November 1952",
+    "round": "11",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Arsuaga",
+        "minute": "76",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Arsuaga",
+        "minute": "80",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Manchón",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "2 March 1952",
+    "round": "25",
+    "homeTeam": "Barcelona",
+    "score": "4–2",
+    "scoreMiTemps": "(2–2)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Vila Soler",
+        "minute": "13",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "36",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "74",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Roque Olsen",
+        "minute": "33",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Arsuaga",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 4,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "11 November 1951",
+    "round": "10",
+    "homeTeam": "Real Madrid",
+    "score": "5–1",
+    "scoreMiTemps": "(3–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Molowny",
+        "minute": "3",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Cabrera",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pahiño",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pahiño",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Roque Olsen",
+        "minute": "57",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Basora",
+        "minute": "44",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 5
+  },
+  {
+    "competition ": "La Liga",
+    "date": "14 January 1951",
+    "round": "18",
+    "homeTeam": "Real Madrid",
+    "score": "4–1",
+    "scoreMiTemps": "(4–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Narro",
+        "minute": "8",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Narro",
+        "minute": "17",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Narro",
+        "minute": "29",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pahiño",
+        "minute": "13",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Canal",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "24 September 1950",
+    "round": "3",
+    "homeTeam": "Barcelona",
+    "score": "7–2",
+    "scoreMiTemps": "(3–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Nicolau",
+        "minute": "9",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Nicolau",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "14",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Aurelio",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Aurelio",
+        "minute": "88",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gonzalvo III",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Basora",
+        "minute": "82",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Molowny",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "García González",
+        "minute": "66",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 7,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "15 January 1950",
+    "round": "16",
+    "homeTeam": "Barcelona",
+    "score": "2–3",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Basora",
+        "minute": "41",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pahiño",
+        "minute": "58",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rafael Verdú",
+        "minute": "66",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Cabrera",
+        "minute": "73",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "18 September 1949",
+    "round": "3",
+    "homeTeam": "Real Madrid",
+    "score": "6–1",
+    "scoreMiTemps": "(3–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Olmedo",
+        "minute": "2",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Cabrera",
+        "minute": "4",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pahiño",
+        "minute": "40",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pahiño",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Macala",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Macala",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Gonzalvo II",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 6
+  },
+  {
+    "competition ": "La Liga",
+    "date": "9 January 1949",
+    "round": "15",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "César",
+        "minute": "28",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "61",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Basora",
+        "minute": "56",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pahiño",
+        "minute": "9",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 September 1948",
+    "round": "2",
+    "homeTeam": "Real Madrid",
+    "score": "1–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Barinaga",
+        "minute": "60",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Florencio",
+        "minute": "41",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Basora",
+        "minute": "48",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 January 1948",
+    "round": "17",
+    "homeTeam": "Barcelona",
+    "score": "4–2",
+    "scoreMiTemps": "(3–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Seguer",
+        "minute": "2",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Basora",
+        "minute": "28",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Basora",
+        "minute": "58",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gallardo",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rafa Yunta",
+        "minute": "76",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 4,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "12 October 1947",
+    "round": "4",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Barinaga",
+        "minute": "65",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Clemente",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": true,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 March 1947",
+    "round": "24",
+    "homeTeam": "Barcelona",
+    "score": "3–2",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Bravo",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Navarro",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Navarro",
+        "minute": "49",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Arsuaga",
+        "minute": "48",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Arsuaga",
+        "minute": "60",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "1 December 1946",
+    "round": "11",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Corona",
+        "minute": "4",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Molowny",
+        "minute": "79",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Seguer",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "3 March 1946",
+    "round": "22",
+    "homeTeam": "Barcelona",
+    "score": "1–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "César",
+        "minute": "17",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 November 1945",
+    "round": "9",
+    "homeTeam": "Real Madrid",
+    "score": "3–2",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Barinaga",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pruden",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Belmar",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Martín",
+        "minute": "51",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gonzalvo III",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 March 1945",
+    "round": "21",
+    "homeTeam": "Barcelona",
+    "score": "5–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "César",
+        "minute": "41",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "46",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Bravo",
+        "minute": "52",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Escolà",
+        "minute": "77",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gonzalvo III",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "12 November 1944",
+    "round": "8",
+    "homeTeam": "Real Madrid",
+    "score": "1–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Moleiro",
+        "minute": "21",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "9 April 1944",
+    "round": "26",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Escolà",
+        "minute": "13",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Alsúa",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rosalénch",
+        "minute": "71",
+        "penalty": false,
+        "ownGoal": true,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "2 January 1944",
+    "round": "13",
+    "homeTeam": "Real Madrid",
+    "score": "0–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Valle Mas",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "10 January 1943",
+    "round": "14",
+    "homeTeam": "Barcelona",
+    "score": "5–5",
+    "scoreMiTemps": "(4–2)[3]",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Martín",
+        "minute": "25",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martín",
+        "minute": "40",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Escolà",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Valle Mas",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Valle Mas",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Alonso",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Alday",
+        "minute": "27",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Alday",
+        "minute": "51",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Botella",
+        "minute": "74",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Mardones II",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 5
+  },
+  {
+    "competition ": "La Liga",
+    "date": "27 September 1942",
+    "round": "1",
+    "homeTeam": "Real Madrid",
+    "score": "3–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Arbiza",
+        "minute": "7",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Arbiza",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Alsúa",
+        "minute": "52",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "25 January 1942",
+    "round": "17",
+    "homeTeam": "Barcelona",
+    "score": "0–2",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Alday",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Alday",
+        "minute": "78",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "19 October 1941",
+    "round": "4",
+    "homeTeam": "Real Madrid",
+    "score": "4–3",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Arbiza",
+        "minute": "17",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Arbiza",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Benito",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": true,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Belmar",
+        "minute": "55",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Calvet",
+        "minute": "25",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Raich",
+        "minute": "60",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gracia",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "23 February 1941",
+    "round": "21",
+    "homeTeam": "Real Madrid",
+    "score": "1–2",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Barinaga",
+        "minute": "49",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bravo",
+        "minute": "60",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martín",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "1 December 1940",
+    "round": "10",
+    "homeTeam": "Barcelona",
+    "score": "3–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Sospedra",
+        "minute": "49",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Sospedra",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Valle Mas",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "14 April 1940",
+    "round": "20",
+    "homeTeam": "Barcelona",
+    "score": "0–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [],
+    "scoresFCB": 0,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "28 January 1940",
+    "round": "9",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Alonso",
+        "minute": "1",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lecue",
+        "minute": "75",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pascual",
+        "minute": "3",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "22 March 1936",
+    "round": "18",
+    "homeTeam": "Real Madrid",
+    "score": "3–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Lecue",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lecue",
+        "minute": "47",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Emilin",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "22 December 1935",
+    "round": "7",
+    "homeTeam": "Barcelona",
+    "score": "0–3",
+    "scoreMiTemps": "(0–2)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Regueiro",
+        "minute": "21",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Diz",
+        "minute": "40",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lecue",
+        "minute": "47",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "La Liga",
+    "date": "21 April 1935",
+    "round": "21",
+    "homeTeam": "Barcelona",
+    "score": "5–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Ventolrà",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ventolrà",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ventolrà",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ventolrà",
+        "minute": "82",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Escolà",
+        "minute": "48",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "3 February 1935",
+    "round": "10",
+    "homeTeam": "Real Madrid",
+    "score": "8–2",
+    "scoreMiTemps": "(5–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Lazcano",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lazcano",
+        "minute": "42",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lazcano",
+        "minute": "73",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Sañudo",
+        "minute": "21",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Sañudo",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Sañudo",
+        "minute": "47",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Sañudo",
+        "minute": "81",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Regueiro",
+        "minute": "29",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Escolà",
+        "minute": "17",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Guzmán",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 8
+  },
+  {
+    "competition ": "La Liga",
+    "date": "28 January 1934",
+    "round": "13",
+    "homeTeam": "Real Madrid",
+    "score": "4–0",
+    "scoreMiTemps": "(3–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Valle",
+        "minute": "7",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Samitier",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Regueiro",
+        "minute": "30",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Eugenio",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "26 November 1933",
+    "round": "4",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(0–2)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Morera",
+        "minute": "46",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Olivares",
+        "minute": "9",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Regueiro",
+        "minute": "26",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "5 March 1933",
+    "round": "15",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Samitier",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Samitier",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Goiburu",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "1 January 1933",
+    "round": "6",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Arocha",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Regueiro",
+        "minute": "78",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "3 April 1932",
+    "round": "18",
+    "homeTeam": "Barcelona",
+    "score": "2–2",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Samitier",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Arocha",
+        "minute": "87",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Lazcano",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Regueiro",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "31 January 1932",
+    "round": "9",
+    "homeTeam": "Real Madrid",
+    "score": "2–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Olivares",
+        "minute": "26",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Olivares",
+        "minute": "40",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "La Liga",
+    "date": "5 April 1931",
+    "round": "18",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Ramón",
+        "minute": "12",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ramón",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Ramón",
+        "minute": "73",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Eugenio",
+        "minute": "38",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "La Liga",
+    "date": "1 February 1931",
+    "round": "9",
+    "homeTeam": "Real Madrid",
+    "score": "0–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [],
+    "scoresFCB": 0,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "30 March 1930",
+    "round": "18",
+    "homeTeam": "Real Madrid",
+    "score": "5–1",
+    "scoreMiTemps": "(3–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Rubio",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rubio",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lazcano",
+        "minute": "42",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lazcano",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lazcano",
+        "minute": "72",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Goiburu",
+        "minute": "84",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 5
+  },
+  {
+    "competition ": "La Liga",
+    "date": "26 January 1930",
+    "round": "9",
+    "homeTeam": "Barcelona",
+    "score": "1–4",
+    "scoreMiTemps": "(0–3)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Bestit",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Rubio",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rubio",
+        "minute": "37",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "F. López",
+        "minute": "17",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lazcano",
+        "minute": "71",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "La Liga",
+    "date": "9 May 1929",
+    "round": "11",
+    "homeTeam": "Real Madrid",
+    "score": "0–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Sastre",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "La Liga",
+    "date": "17 February 1929",
+    "round": "2",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Parera",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Morera",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Morera",
+        "minute": "55",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  }
+]

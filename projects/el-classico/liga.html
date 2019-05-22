@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/style.css">
+    <title>List of El Clásico | La Liga</title>
+</head>
+
+<body>
+
+	<div class="liga-all">
+		<div class="container pt-3">
+			<div class="row header text-center">
+				<div class="col-md-4">
+					<h5 class="text-cente">FC Barcelona</h5>
+					<img style="width:100px;height:100px;" src="FCB_L.png">
+				</div>
+				<div class="col-md-4">
+					<img style="width:100px;height:100px;" src="images/la-liga.png">
+				</div>
+				<div class="col-md-4">
+					<h5 class="text-cente">Real Madrid</h5>
+					<img style="width:100px;height:100px;" src="RM_L.png">
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel"></h5>
+						<button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body detail-fcb" style="display:none">
+						<img id='avatarFCB' src="avatar.png">
+					</div>
+					<div class="modal-body detail-rm" style="display:none">
+						<img id='avatarRM' src="avatar.png">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary close-modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div style="overflow:hidden;" height="800">
+				<svg id="chart" width="100%" height="5510" class="chart">
+				</svg>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" ></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://d3js.org/d3.v5.js"></script>
+	<script src="js/la-liga.js"></script>
+	<script>
+		$(document).on('click', '.p-g', function () {
+			$('#exampleModal').addClass("show").css("display", "block");
+		})
+		$(document).on('click', '.close-modal', function () {
+			$('#exampleModal').removeClass("show").css("display", "none");
+			$('.modal-body').css("display", "none");
+		})
+		$(document).on('click', '.p-g', function () {
+			const player = $(this).attr('data-player');
+			$('.modal-title').text(player);
+			const team = $(this).attr('data-team');
+
+			if (team === "FCB") {
+				$('.detail-fcb').css("display", "block");
+			} else if (team === "RM") {
+				$('.detail-rm').css("display", "block");
+			}
+		})
+	</script>
+</body>
+</html>

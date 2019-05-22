@@ -1,0 +1,1374 @@
+[
+  {
+    "competition ": "Copa del Rey",
+    "date": "2018",
+    "round": "Semi final (1st leg)",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Malcom",
+        "minute": "57",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Vázquez",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "2018",
+    "round": "Semi final (2nd leg)",
+    "homeTeam": "Real Madrid",
+    "score": "0–3",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "L. Suárez",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "L. Suárez",
+        "minute": "73",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Varane",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": true,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "2013",
+    "round": "Final",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Di María",
+        "minute": "11",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bale",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bartra",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "2012",
+    "round": "Semi final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Varane",
+        "minute": "82",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Fàbregas",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "2012",
+    "round": "Semi final (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "1–3",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Alba",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "13",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "57",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Varane",
+        "minute": "68",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "2011",
+    "round": "Quarter final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "1–2",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "C. Ronaldo",
+        "minute": "10",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Puyol",
+        "minute": "49",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Abidal",
+        "minute": "77",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "2011",
+    "round": "Quarter final (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "2–2",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Pedro",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Alves",
+        "minute": "45",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "C. Ronaldo",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Benzema",
+        "minute": "72",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "2010",
+    "round": "Final",
+    "homeTeam": "Barcelona",
+    "score": "0–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "C. Ronaldo",
+        "minute": "103",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1996",
+    "round": "Last 16 (1st leg)",
+    "homeTeam": "Barcelona",
+    "score": "3–2",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Ronaldo",
+        "minute": "13",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Nada",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Giovanni",
+        "minute": "79",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Šuker",
+        "minute": "16",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Hierro",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1996",
+    "round": "Last 16 (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Šuker",
+        "minute": "80",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Roberto Carlos",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": true,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1992",
+    "round": "Semi final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "1–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Zamorano",
+        "minute": "40",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bakero",
+        "minute": "30",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1992",
+    "round": "Semi final (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "1–2",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Laudrup",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Míchel",
+        "minute": "22",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Zamorano",
+        "minute": "82",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1989",
+    "round": "Final",
+    "homeTeam": "Barcelona",
+    "score": "2–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Amor",
+        "minute": "68",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Salinas",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1982",
+    "round": "Final",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Víctor",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Marcos",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Santillana",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1973",
+    "round": "Final",
+    "homeTeam": "Real Madrid",
+    "score": "4–0",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Santillana",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Rubiñán",
+        "minute": "47",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Aguilar",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pirri",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1969",
+    "round": "Quarter final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "2–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Grosso",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Amancio",
+        "minute": "44",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1969",
+    "round": "Quarter final (1st leg)",
+    "homeTeam": "Barcelona",
+    "score": "1–1",
+    "scoreMiTemps": "(1–0)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Rexach",
+        "minute": "45",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Amancio",
+        "minute": "60",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1967",
+    "round": "Final",
+    "homeTeam": "Real Madrid",
+    "score": "0–1",
+    "scoreMiTemps": "(0–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Zunzunegui",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": true,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1961",
+    "round": "Quarter final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "0–1",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Martínez",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1961",
+    "round": "Quarter final (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "1–3",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Pereda",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Del Sol",
+        "minute": "65",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Puskas",
+        "minute": "83",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Gento",
+        "minute": "90",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 3
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1958",
+    "round": "Quarter final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "2–4",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Puskas",
+        "minute": "20",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Mateos",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Kocsis",
+        "minute": "51",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Kocsis",
+        "minute": "69",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Luis Suárez",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Luis Suárez",
+        "minute": "71",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 4,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1958",
+    "round": "Quarter final (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Luis Suárez",
+        "minute": "34",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Luis Suárez",
+        "minute": "44",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Villaverde",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Gento",
+        "minute": "36",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1957",
+    "round": "Quarter final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "2–2",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Di Stéfano",
+        "minute": "20",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Di Stéfano",
+        "minute": "35",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Kubala",
+        "minute": "14",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Basora",
+        "minute": "53",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1957",
+    "round": "Quarter final (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "6–1",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Martínez",
+        "minute": "4",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martínez",
+        "minute": "48",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martínez",
+        "minute": "50",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martínez",
+        "minute": "63",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Kubala",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Villaverde",
+        "minute": "79",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Olivella",
+        "minute": "75",
+        "penalty": false,
+        "ownGoal": true,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 6,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1954",
+    "round": "Semi final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "1–0",
+    "scoreMiTemps": "(0–0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Mateos",
+        "minute": "86",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 0,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1954",
+    "round": "Semi final (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "3–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "César",
+        "minute": "9",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "César",
+        "minute": "12",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Biosca",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Pérez Payá",
+        "minute": "24",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1943",
+    "round": "Semi final (1st leg)",
+    "homeTeam": "Barcelona",
+    "score": "3–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Valle",
+        "minute": "34",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Escolá",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Sospedra",
+        "minute": "60",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1943",
+    "round": "Semi final (2nd leg)",
+    "homeTeam": "Real Madrid",
+    "score": "11–1",
+    "scoreMiTemps": "(8-0)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Pruden",
+        "minute": "5",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pruden",
+        "minute": "32",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Pruden",
+        "minute": "35",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Barinaga",
+        "minute": "30",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Barinaga",
+        "minute": "42",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Barinaga",
+        "minute": "44",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Barinaga",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Alonso",
+        "minute": "37",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Alonso",
+        "minute": "74",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Curta",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Botella",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Martín",
+        "minute": "89",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 11
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1936",
+    "round": "Final",
+    "homeTeam": "Real Madrid",
+    "score": "2–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Eugenio",
+        "minute": "6",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Lécue",
+        "minute": "12",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Escolà",
+        "minute": "29",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 2
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1926",
+    "round": "Quarter final (1st leg)",
+    "homeTeam": "Real Madrid",
+    "score": "1–5",
+    "scoreMiTemps": "(0–3)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Monjardín",
+        "minute": "47",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Samitier",
+        "minute": "19",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Samitier",
+        "minute": "26",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Samitier",
+        "minute": "43",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Samitier",
+        "minute": "64",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Luis Enrique",
+        "minute": "79",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 5,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1926",
+    "round": "Quarter final (2nd leg)",
+    "homeTeam": "Barcelona",
+    "score": "3–0",
+    "scoreMiTemps": "(2–0)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Piera",
+        "minute": "8",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Samitier",
+        "minute": "18",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Samitier",
+        "minute": "51",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 3,
+    "scoresRM": 0
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1916",
+    "round": "Semi final (1st leg)",
+    "homeTeam": "Barcelona",
+    "score": "2–1",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "Barcelona",
+    "goals": [
+      {
+        "player": "Alcántara",
+        "minute": "39",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martínez",
+        "minute": "85",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Bernabéu",
+        "minute": "",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 1
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1916",
+    "round": "Semi final (2nd leg)",
+    "homeTeam": "Real Madrid",
+    "score": "4–1",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Bernabéu",
+        "minute": "15",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bernabéu",
+        "minute": "31",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bernabéu",
+        "minute": "62",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Petit",
+        "minute": "77",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Martínez",
+        "minute": "22",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 1,
+    "scoresRM": 4
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1916",
+    "round": "Semi final (1st (R))",
+    "homeTeam": "Real Madrid",
+    "score": "6–6",
+    "scoreMiTemps": "(1–1)",
+    "winnerTeam": "draw",
+    "goals": [
+      {
+        "player": "Belaunde",
+        "minute": "2",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Belaunde",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Belaunde",
+        "minute": "87",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bernabéu",
+        "minute": "2",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bernabéu",
+        "minute": "23",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Bernabéu",
+        "minute": "118",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Alcántara",
+        "minute": "15",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Alcántara",
+        "minute": "30",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Alcántara",
+        "minute": "102",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Mallorquí",
+        "minute": "67",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Bau",
+        "minute": "70",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martínez",
+        "minute": "112",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 6,
+    "scoresRM": 6
+  },
+  {
+    "competition ": "Copa del Rey",
+    "date": "1916",
+    "round": "Semi final (2nd (R))",
+    "homeTeam": "Real Madrid",
+    "score": "4–2",
+    "scoreMiTemps": "(2–1)",
+    "winnerTeam": "Real Madrid",
+    "goals": [
+      {
+        "player": "Bernabéu",
+        "minute": "1",
+        "penalty": true,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Zabala",
+        "minute": "2",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Sotero",
+        "minute": "3",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Real Madrid"
+      },
+      {
+        "player": "Martínez",
+        "minute": "11",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      },
+      {
+        "player": "Martínez",
+        "minute": "38",
+        "penalty": false,
+        "ownGoal": false,
+        "team": "Barcelona"
+      }
+    ],
+    "scoresFCB": 2,
+    "scoresRM": 4
+  }
+]
