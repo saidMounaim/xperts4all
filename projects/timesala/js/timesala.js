@@ -402,9 +402,11 @@ function update(dataset) {
     baseGroup.append("g")
           .attr("class", "axis")
           .attr("transform", "translate(0," + height + ")")
+          .attr("fill", "#fff")
           .call(xBar);              
     baseGroup.append("g")
           .attr("class", "axis")
+          .attr("fill", "#fff")
           .call(yAxis);
 
     var area = d3.svg.area()
