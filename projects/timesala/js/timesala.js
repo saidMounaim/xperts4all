@@ -434,12 +434,14 @@ function update(dataset) {
         .on("mousemove", mousemove);
 
       focusDate.append("circle")
-          .attr("r", 4.5);
+          .attr("r", 4.5)
+          .attr("fill", "#fff");
 
       focusDate.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
-          .attr("dy", ".35em");
+          .attr("dy", ".35em")
+          .attr("fill", "#fff");
 		  
       focusFajr.append("circle")
           .attr("r", 4.5);
@@ -447,42 +449,49 @@ function update(dataset) {
       focusFajr.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
-          .attr("dy", ".35em");
+          .attr("dy", ".35em")
+          .attr("fill", "#fff");
 
       focusSunrise.append("circle")
           .attr("r", 4.5);
       focusSunrise.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
-          .attr("dy", ".35em");
+          .attr("dy", ".35em")
+          .attr("fill", "#fff");
 
       focusDhuhr.append("circle")
           .attr("r", 4.5);
       focusDhuhr.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
-          .attr("dy", ".35em");
+          .attr("dy", ".35em")
+          .attr("fill", "#fff");
 
       focusAsr.append("circle")
-          .attr("r", 4.5);
+          .attr("r", 4.5)
+          .attr("fill", "#fff");
       focusAsr.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
-          .attr("dy", ".35em");
+          .attr("dy", ".35em")
+          .attr("fill", "#fff");
 
       focusMaghrib.append("circle")
           .attr("r", 4.5);
       focusMaghrib.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
-          .attr("dy", ".35em");
+          .attr("dy", ".35em")
+          .attr("fill", "#fff");
 
       focusIsha.append("circle")
           .attr("r", 4.5);
       focusIsha.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
-          .attr("dy", ".35em");
+          .attr("dy", ".35em")
+          .attr("fill", "#fff");
           
           
   vLine = baseGroup.append('line')        

@@ -34,7 +34,7 @@ d3.select('svg#chart').append("line")
 	.attr('x1', matchTimeScale(0))
 	.attr('y1', 0)
 	.attr('x2', matchTimeScale(0))
-	.attr('y2', 5360)
+	.attr('y2', 600)
 	.attr("stroke-width", 2)
 	.attr("stroke", "#fff");
 	
@@ -42,7 +42,7 @@ d3.select('svg#chart').append("line")
 	.attr('x1', matchTimeScale(49))
 	.attr('y1', 0)
 	.attr('x2', matchTimeScale(49))
-	.attr('y2', 5360)
+	.attr('y2', 600)
 	.attr("stroke-width", 2)
 	.attr("stroke", "#fff");
 	
@@ -50,7 +50,7 @@ d3.select('svg#chart').append("line")
 	.attr('x1', matchTimeScale(99))
 	.attr('y1', 0)
 	.attr('x2', matchTimeScale(99))
-	.attr('y2', 5360)
+	.attr('y2', 600)
 	.attr("stroke-width", 2)
 	.attr("stroke", "#fff");
 
