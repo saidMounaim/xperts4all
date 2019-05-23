@@ -1,0 +1,520 @@
+[
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "2017",
+        "round": "1st leg",
+        "homeTeam": "Barcelona",
+        "score": "1–3",
+        "scoreMiTemps": "(0–0)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Messi",
+                "minute": "77",
+                "penalty": true,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Piqué",
+                "minute": "50",
+                "penalty": false,
+                "ownGoal": true,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "C. Ronaldo",
+                "minute": "80",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Asensio",
+                "minute": "90",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 3
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "2017",
+        "round": "2nd leg",
+        "homeTeam": "Real Madrid",
+        "score": "2–0",
+        "scoreMiTemps": "(2–0)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Asensio",
+                "minute": "4",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Benzema",
+                "minute": "39",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 0,
+        "scoresRM": 2
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "2012",
+        "round": "1st leg",
+        "homeTeam": "Barcelona",
+        "score": "3–2",
+        "scoreMiTemps": "(0–0)",
+        "winnerTeam": "Barcelona",
+        "goals": [
+            {
+                "player": "Pedro",
+                "minute": "57",
+                "penalty": true,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Messi",
+                "minute": "70",
+                "penalty": true,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Xavi",
+                "minute": "77",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "C. Ronaldo",
+                "minute": "55",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Di María",
+                "minute": "85",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 3,
+        "scoresRM": 2
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "2012",
+        "round": "2nd leg",
+        "homeTeam": "Real Madrid",
+        "score": "2–1",
+        "scoreMiTemps": "(2–1)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Higuaín",
+                "minute": "11",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "C. Ronaldo",
+                "minute": "19",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Messi",
+                "minute": "45",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 2
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "2011",
+        "round": "1st leg",
+        "homeTeam": "Real Madrid",
+        "score": "2–2",
+        "scoreMiTemps": "(1–2)",
+        "winnerTeam": "draw",
+        "goals": [
+            {
+                "player": "Özil",
+                "minute": "13",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Alonso",
+                "minute": "54",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Villa",
+                "minute": "36",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Messi",
+                "minute": "45",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 2,
+        "scoresRM": 2
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "2011",
+        "round": "2nd leg",
+        "homeTeam": "Barcelona",
+        "score": "3–2",
+        "scoreMiTemps": "(2–1)",
+        "winnerTeam": "Barcelona",
+        "goals": [
+            {
+                "player": "Iniesta",
+                "minute": "15",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Messi",
+                "minute": "45",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Messi",
+                "minute": "88",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "C. Ronaldo",
+                "minute": "20",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Benzema",
+                "minute": "82",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 3,
+        "scoresRM": 2
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "1997",
+        "round": "1st leg",
+        "homeTeam": "Barcelona",
+        "score": "2–1",
+        "scoreMiTemps": "(1–1)",
+        "winnerTeam": "Barcelona",
+        "goals": [
+            {
+                "player": "Giovanni",
+                "minute": "1",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Miguel Nadal",
+                "minute": "85",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Raúl",
+                "minute": "4",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 2,
+        "scoresRM": 1
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "2012",
+        "round": "2nd leg",
+        "homeTeam": "Real Madrid",
+        "score": "4–1",
+        "scoreMiTemps": "(1–0)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Raúl",
+                "minute": "42",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Raúl",
+                "minute": "54",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Mijatović",
+                "minute": "58",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Seedorf",
+                "minute": "65",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Giovanni",
+                "minute": "80",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 4
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "1993",
+        "round": "1st leg",
+        "homeTeam": "Real Madrid",
+        "score": "3–1",
+        "scoreMiTemps": "(1–1)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Alfonso",
+                "minute": "35",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Alfonso",
+                "minute": "89",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Zamorano",
+                "minute": "55",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Stoichkov",
+                "minute": "17",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 3
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "1993",
+        "round": "2nd leg",
+        "homeTeam": "Barcelona",
+        "score": "1–1",
+        "scoreMiTemps": "(0–1)",
+        "winnerTeam": "draw",
+        "goals": [
+            {
+                "player": "Bakero",
+                "minute": "65",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Zamorano",
+                "minute": "21",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 1
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "1990",
+        "round": "1st leg",
+        "homeTeam": "Barcelona",
+        "score": "0–1",
+        "scoreMiTemps": "(0–0)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Míchel",
+                "minute": "54",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 0,
+        "scoresRM": 1
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "1990",
+        "round": "2nd leg",
+        "homeTeam": "Real Madrid",
+        "score": "4–1",
+        "scoreMiTemps": "(2–1)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Butragueño",
+                "minute": "21",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Butragueño",
+                "minute": "44",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Hugo Sánchez",
+                "minute": "56",
+                "penalty": true,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Aragón",
+                "minute": "70",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Goikoetxea",
+                "minute": "20",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 4
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "1988",
+        "round": "1st leg",
+        "homeTeam": "Real Madrid",
+        "score": "2–0",
+        "scoreMiTemps": "(0–0)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Míchel",
+                "minute": "71",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Hugo Sánchez",
+                "minute": "78",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 0,
+        "scoresRM": 2
+    },
+    {
+        "competition ": "Spanish Super Cup",
+        "season": "1988",
+        "round": "2nd leg",
+        "homeTeam": "Barcelona",
+        "score": "2–1",
+        "scoreMiTemps": "(1–1)",
+        "winnerTeam": "Barcelona",
+        "goals": [
+            {
+                "player": "Bakero",
+                "minute": "37",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Bakero",
+                "minute": "77",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Butragueño",
+                "minute": "14",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 2,
+        "scoresRM": 1
+    }
+]
