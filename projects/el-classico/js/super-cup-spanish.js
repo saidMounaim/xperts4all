@@ -54,7 +54,7 @@ d3.select('svg#chart').append("line")
 	.attr("stroke-width", 2)
 	.attr("stroke", "#fff");
 
-d3.json("super-cup-spanish.json").then(function(json) {
+d3.json("data_cup_spanish.json").then(function(json) {
 
 var draw = json.filter(d => d.winnerTeam == 'draw').length;
 var FCB = json.filter(d => d.winnerTeam == 'Barcelona').length;
