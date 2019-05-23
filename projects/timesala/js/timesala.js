@@ -368,19 +368,25 @@ function update(dataset) {
     d3.selectAll('.focus').remove();
 
       focusDate = svg.append("g")
-          .attr("class", "focus");
+          .attr("class", "focus")
+          .attr("fill", "#fff");
       focusFajr = svg.append("g")
-          .attr("class", "focus");
+          .attr("class", "focus")
+          .attr("fill", "#fff");
       focusSunrise = svg.append("g")
-          .attr("class", "focus");
+          .attr("class", "focus")
+          .attr("fill", "#fff");
       focusDhuhr = svg.append("g")
-          .attr("class", "focus");
+          .attr("class", "focus")
+          .attr("fill", "#fff");
       focusAsr = svg.append("g")
           .attr("class", "focus");
       focusMaghrib = svg.append("g")
-          .attr("class", "focus");
+          .attr("class", "focus")
+          .attr("fill", "#fff");
       focusIsha = svg.append("g")
-          .attr("class", "focus");  
+          .attr("class", "focus")
+          .attr("fill", "#fff");  
 
     var newDataset = miValues.map(function(n, j){
         return dataset.map(function(d, i){
@@ -444,7 +450,8 @@ function update(dataset) {
           .attr("fill", "#fff");
 		  
       focusFajr.append("circle")
-          .attr("r", 4.5);
+          .attr("r", 4.5)
+          .attr("fill", "#fff");
 
       focusFajr.append("text")
           .attr("transform", "translate(0,-10)")
@@ -453,7 +460,8 @@ function update(dataset) {
           .attr("fill", "#fff");
 
       focusSunrise.append("circle")
-          .attr("r", 4.5);
+          .attr("r", 4.5)
+          .attr("fill", "#fff");
       focusSunrise.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
@@ -461,7 +469,8 @@ function update(dataset) {
           .attr("fill", "#fff");
 
       focusDhuhr.append("circle")
-          .attr("r", 4.5);
+          .attr("r", 4.5)
+          .attr("fill", "#fff");
       focusDhuhr.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
@@ -478,7 +487,8 @@ function update(dataset) {
           .attr("fill", "#fff");
 
       focusMaghrib.append("circle")
-          .attr("r", 4.5);
+          .attr("r", 4.5)
+          .attr("fill", "#fff");
       focusMaghrib.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
@@ -486,7 +496,8 @@ function update(dataset) {
           .attr("fill", "#fff");
 
       focusIsha.append("circle")
-          .attr("r", 4.5);
+          .attr("r", 4.5)
+          .attr("fill", "#fff");
       focusIsha.append("text")
           .attr("transform", "translate(0,-10)")
           .attr("x", 9)
