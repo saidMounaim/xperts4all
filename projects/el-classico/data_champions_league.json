@@ -1,0 +1,267 @@
+[
+    {
+        "competition ": "UEFA Champions League",
+        "season": "2010",
+        "round": "Semi final (1st leg)",
+        "homeTeam": "Real Madrid",
+        "score": "0–2",
+        "scoreMiTemps": "(0–0)",
+        "winnerTeam": "Barcelona",
+        "goals": [
+            {
+                "player": "Messi",
+                "minute": "76",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Messi",
+                "minute": "87",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 2,
+        "scoresRM": 0
+    },
+    {
+        "competition ": "UEFA Champions League",
+        "season": "2017",
+        "round": "Semi final (2nd leg)",
+        "homeTeam": "Barcelona",
+        "score": "1–1",
+        "scoreMiTemps": "(0–0)",
+        "winnerTeam": "draw",
+        "goals": [
+            {
+                "player": "Pedro",
+                "minute": "54",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Marcelo",
+                "minute": "64",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 1
+    },
+    {
+        "competition ": "UEFA Champions League",
+        "season": "2001",
+        "round": "Semi final (1st leg)",
+        "homeTeam": "Barcelona",
+        "score": "0–2",
+        "scoreMiTemps": "(0–0)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Zidane",
+                "minute": "55",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "McManaman",
+                "minute": "90",
+                "penalty": true,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 0,
+        "scoresRM": 2
+    },
+    {
+        "competition ": "UEFA Champions League",
+        "season": "2001",
+        "round": "Semi final (2nd leg)",
+        "homeTeam": "Real Madrid",
+        "score": "1–1",
+        "scoreMiTemps": "(1–0)",
+        "winnerTeam": "draw",
+        "goals": [
+            {
+                "player": "Raúl",
+                "minute": "43",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Helguera",
+                "minute": "49",
+                "penalty": false,
+                "ownGoal": true,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 1
+    },
+    {
+        "competition ": "UEFA Champions League",
+        "season": "1960",
+        "round": "First round (1st leg)",
+        "homeTeam": "Real Madrid",
+        "score": "2–2",
+        "scoreMiTemps": "(2–1)",
+        "winnerTeam": "draw",
+        "goals": [
+            {
+                "player": "Mateos",
+                "minute": "1",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Gento",
+                "minute": "33",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Luis Suárez",
+                "minute": "27",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Messi",
+                "minute": "88",
+                "penalty": true,
+                "ownGoal": false,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 2,
+        "scoresRM": 2
+    },
+    {
+        "competition ": "UEFA Champions League",
+        "season": "1960",
+        "round": "First round (2nd leg)",
+        "homeTeam": "Barcelona",
+        "score": "2–1",
+        "scoreMiTemps": "(1–0)",
+        "winnerTeam": "Barcelona",
+        "goals": [
+            {
+                "player": "Vergés",
+                "minute": "33",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Evaristo",
+                "minute": "81",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Canário",
+                "minute": "87",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 2,
+        "scoresRM": 1
+    },
+    {
+        "competition ": "UEFA Champions League",
+        "season": "1959",
+        "round": "Semi final (1st leg)",
+        "homeTeam": "Real Madrid",
+        "score": "3–1",
+        "scoreMiTemps": "(2–1)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Di Stéfano",
+                "minute": "17",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Di Stéfano",
+                "minute": "84",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Puskás",
+                "minute": "28",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Martínez",
+                "minute": "37",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            }
+        ],
+        "scoresFCB": 3,
+        "scoresRM": 1
+    },
+    {
+        "competition ": "UEFA Champions League",
+        "season": "1959",
+        "round": "Semi final (2nd leg)",
+        "homeTeam": "Barcelona",
+        "score": "1–3",
+        "scoreMiTemps": "(1–1)",
+        "winnerTeam": "Real Madrid",
+        "goals": [
+            {
+                "player": "Kocsis",
+                "minute": "9",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Barcelona"
+            },
+            {
+                "player": "Puskás",
+                "minute": "25",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Puskás",
+                "minute": "75",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            },
+            {
+                "player": "Gento",
+                "minute": "68",
+                "penalty": false,
+                "ownGoal": false,
+                "team": "Real Madrid"
+            }
+        ],
+        "scoresFCB": 1,
+        "scoresRM": 3
+    }
+]
