@@ -1,7 +1,7 @@
 [
     {
         "competition ": "UEFA Champions League",
-        "season": "2010",
+        "date": "Season 2010",
         "round": "Semi final (1st leg)",
         "homeTeam": "Real Madrid",
         "score": "0–2",
@@ -28,7 +28,7 @@
     },
     {
         "competition ": "UEFA Champions League",
-        "season": "2017",
+        "date": "Season 2017",
         "round": "Semi final (2nd leg)",
         "homeTeam": "Barcelona",
         "score": "1–1",
@@ -55,7 +55,7 @@
     },
     {
         "competition ": "UEFA Champions League",
-        "season": "2001",
+        "date": "Season 2001",
         "round": "Semi final (1st leg)",
         "homeTeam": "Barcelona",
         "score": "0–2",
@@ -82,7 +82,7 @@
     },
     {
         "competition ": "UEFA Champions League",
-        "season": "2001",
+        "date": "Season 2001",
         "round": "Semi final (2nd leg)",
         "homeTeam": "Real Madrid",
         "score": "1–1",
@@ -109,7 +109,7 @@
     },
     {
         "competition ": "UEFA Champions League",
-        "season": "1960",
+        "date": "Season 1960",
         "round": "First round (1st leg)",
         "homeTeam": "Real Madrid",
         "score": "2–2",
@@ -150,7 +150,7 @@
     },
     {
         "competition ": "UEFA Champions League",
-        "season": "1960",
+        "date": "Season 1960",
         "round": "First round (2nd leg)",
         "homeTeam": "Barcelona",
         "score": "2–1",
@@ -184,7 +184,7 @@
     },
     {
         "competition ": "UEFA Champions League",
-        "season": "1959",
+        "date": "Season 1959",
         "round": "Semi final (1st leg)",
         "homeTeam": "Real Madrid",
         "score": "3–1",
@@ -225,7 +225,7 @@
     },
     {
         "competition ": "UEFA Champions League",
-        "season": "1959",
+        "date": "Season 1959",
         "round": "Semi final (2nd leg)",
         "homeTeam": "Barcelona",
         "score": "1–3",
