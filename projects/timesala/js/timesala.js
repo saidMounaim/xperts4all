@@ -139,6 +139,13 @@ function display() {
             if (focusIsha) focusIsha.remove();
             if (vLine) vLine.remove();
 
+            console.log(year);
+
+            var xScale = d3.time.scale()
+                .domain([new Date(year-1, 12, 1), new Date(year, 12, 31)])
+                .range([0, width]);
+
+
             d3.queue()
                 .defer(d3.json, `https://api.aladhan.com/v1/calendarByCity?city=${city}&country=MA&&month=1&year=${year}&method=3`)
                 .defer(d3.json, `https://api.aladhan.com/v1/calendarByCity?city=${city}&country=MA&&month=2&year=${year}&method=3`)
