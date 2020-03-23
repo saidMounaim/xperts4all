@@ -38,15 +38,22 @@ var barDataset = [
 ];
 
 
-  const tests = Math.max(...barDataset.map(d => d.totalNegatifTests));
-  const cases = Math.max(...barDataset.map(d => d.totalConfirmedCases));
-  const deaths = Math.max(...barDataset.map(d => d.totalDeath));
-  const recovered = Math.max(...barDataset.map(d => d.totalRecovered));
-
+const tests = Math.max(...barDataset.map(d => d.totalNegatifTests));
+const cases = Math.max(...barDataset.map(d => d.totalConfirmedCases));
+const deaths = Math.max(...barDataset.map(d => d.totalDeath));
+const recovered = Math.max(...barDataset.map(d => d.totalRecovered));
 d3.select("#tests").text(tests);
 d3.select("#cases").text(cases);
 d3.select("#deaths").text(deaths);
 d3.select("#recovered").text(recovered);
+
+
+const confirmedPercent = cases/tests*100;
+const deathsPercent = deaths/cases*100;
+const recoveredPercent = recovered/cases*100;
+d3.select("#casesPercent").text(confirmedPercent);
+d3.select("#deathsPercent").text(deathsPercent);
+d3.select("#recoveredPercent").text(recoveredPercent);
 
 function update() {
   const cumule = d3.select("#cucmule").property("checked")
@@ -55,20 +62,24 @@ function update() {
 
 function drawBarGraph(data, cumule) {
 
-  var status = cumule ? ["totalConfirmedCases", "totalDeath"] : ["confirmedCases", "death"];
+  var status = cumule ? 
+        ["totalConfirmedCases", "totalDeath", "totalRecovered"] : 
+        ["confirmedCases", "death", "recovered"];
+  
+  const label = {
+    "totalConfirmedCases" : "Confirmed cases", "confirmedCases" : "Confirmed cases", 
+  "totalDeath" : "Death", "death" : "Death", 
+  "totalRecovered" : "Recovered", "recovered" : "Rrecovered", 
+} 
 
-  var colors = [ ["totalConfirmedCases", "#50E3C2"],
-                ["totalDeath", "#EF5C6E"],
-                
-                ["confirmedCases", "#50E3C2"],
-                ["death", "#EF5C6E"] ];
+const windowWIdth = window.innerWidth;
 
-  var margin = {top: 30, right: 30, bottom: 40, left: 60},
-      width  = 860 - margin.left - margin.right,
-      height = 290 - margin.top - margin.bottom;
+var margin = {top: 30, right: 30, bottom: 40, left: 60},
+    width  = window.innerWidth*0.7 - margin.left - margin.right,
+    height = 290 - margin.top - margin.bottom;
 
   var z = d3.scale.ordinal()
-  .range(["#50E3C2", "#EF5C6E"]);
+  .range(["#50E3C2", "#EF5C6E", "#FFFFFF"]);
 
   var n = Math.max(...barDataset.map(d => d.day));
 
@@ -98,12 +109,13 @@ function drawBarGraph(data, cumule) {
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
-  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+  ;
 
   var layers = d3.layout.stack()
   (status.map(function (c) {
     return data.map(function (d) {
-      return {x: d.day, y: d[c], type: c};
+      return {x: d.day, y: d[c], type: label[c]};
     });
   }));
 
@@ -222,3 +234,16 @@ $('.count').each(function () {
     }
   });
 });
+
+$('.percent').each(function () {
+  $(this).prop('Counter',0).animate({
+    Counter: $(this).text()
+  }, {
+    duration: 1500,
+    easing: 'swing',
+    step: function (now) {
+      $(this).text(Math.ceil(now) + '%');
+    }
+  });
+});
+

@@ -21,7 +21,7 @@ h1 {
 .wrapper {
   box-shadow: 0 0 40px rgba(51, 59, 102, 0.5);
   display: none;
-  width: 870px;
+  width: 80%;
 }
 .cards {
   background: #fff;
@@ -59,6 +59,14 @@ h1 {
   vertical-align: middle;
 }
 .count {
+  color: #4a4a4a;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -4px;
+  line-height: 46px !important;
+  margin-right: 10px;
+}
+.percent {
   color: #4a4a4a;
   font-size: 48px;
   font-weight: 700;
@@ -106,7 +114,7 @@ div.tooltip {
   font-size: 10px;
 }
 .vbroadcast-legend {
-  float: right;
+  /*float: right;*/
   margin-right: 40px;
   margin-top: 16px;
 }
@@ -131,9 +139,12 @@ div.tooltip {
   top: 3px;
   width: 12px;
 }
-.vbroadcast-legend li.successful:before {
+.vbroadcast-legend li.cases:before {
   background: #50e3c2;
 }
-.vbroadcast-legend li.unsuccessful:before {
+.vbroadcast-legend li.deaths:before {
   background: #ef5c6e;
+}
+.vbroadcast-legend li.recovered:before {
+  background: #FFFFFF;
 }

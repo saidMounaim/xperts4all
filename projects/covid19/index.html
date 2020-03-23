@@ -9,7 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
     <link rel="stylesheet" href="css/covid19.css" >
-    <title>Islamic Prayer Times</title>
+    <title>Morocco COVID-19</title>
 </head>
 <body>
     
@@ -26,33 +26,50 @@
             <div class="listen-wrap">
               <ul>
                 <li>
-                  <span id="tests" class="count">176</span>
+                  <span id="tests" class="count"></span>
                   <span>Total <br> Tests</span>
                 </li>
                 <li>
-                  <span id="cases" class="count">126</span>
+                  <span id="cases" class="count"></span>
                   <span>Total <br>Cases</span>
                 </li>
                 <li>
-                  <span id="deaths" class="count">50</span>
+                  <span id="deaths" class="count"></span>
                   <span>Total <br>Deaths</span>
                 </li>
                 <li>
-                  <span id="recovered" class="count">50</span>
+                  <span id="recovered" class="count"></span>
                   <span>Total <br>Recovered</span>
+                </li>
+              </ul>
+            </div>
+            <div class="listen-wrap">
+              <ul>
+                <li>
+                  <span id="casesPercent" class="percent"></span>
+                  <span>Of tests are <br>Positifs</span>
+                </li>
+                <li>
+                  <span id="deathsPercent" class="percent"></span>
+                  <span>Of confirmed cases are <br>Dead</span>
+                </li>
+                <li>
+                  <span id="recoveredPercent" class="percent"></span>
+                  <span>Of confirmed cases are <br>Recovered</span>
                 </li>
               </ul>
             </div>
           </div>
           <div class="chart-wrapper" id="chart-bar">
-            <h1>Status</h1>
+
             <ul class="vbroadcast-legend">
-              <li class="successful">New cases</li>
-              <li class="unsuccessful">New deaths</li>
+              <li class="cases">Confirmed cases</li>
+              <li class="deaths">Deaths</li>
+              <li class="recovered">Recovered</li>
+              
+              <li >Cumule</li>
             </ul>
-            
-      <input type="checkbox" class="vbroadcast-legend" id="cucmule" name="vehicle1" value="Bike">
-      <label class="vbroadcast-legend" for="vehicle1">Cumule</label>
+            <input id="cucmule" type="checkbox"/>
           </div>
         </div>
       </div>
