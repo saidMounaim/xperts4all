@@ -76,8 +76,13 @@ function drawBarGraph(data, cumule) {
   "totalRecovered" : "Recovered", "recovered" : "Rrecovered", 
 } 
 
-var margin = {top: 30, right: 30, bottom: 40, left: 60},
-    width  = window.innerWidth*0.7 - margin.left - margin.right,
+let initSize = 30;
+// if (window.innerWidth < 600) {
+//   initSize = 10;
+// }
+
+var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
+    width  = window.innerWidth*0.8 - margin.left - margin.right,
     height = 290 - margin.top - margin.bottom;
 
   var z = d3.scale.ordinal()
@@ -110,7 +115,7 @@ var margin = {top: 30, right: 30, bottom: 40, left: 60},
   d3.select("#chart-bar").selectAll("svg").remove();
   var svg = d3.select("#chart-bar")
   .append("svg")
-  .attr("width", width + margin.left + margin.right)
+  .attr("width", "100%")
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
@@ -151,10 +156,10 @@ var margin = {top: 30, right: 30, bottom: 40, left: 60},
     .attr("transform", "translate(0," + height + ")") 
     .call(xAxis)
     .append("text")
-    .attr("transform", "translate(364,0)")
+    .attr("transform", "translate(" + width/2 + ",0)")
     .attr("y", "3em")
     .style("text-anchor", "middle")
-    .text("Days");
+    .text("Days since first case 02/03/2020");
   //  svg.selectAll("g.tick")
   //    .selectAll("text")
   //    .attr("transform", "translate(0,20) rotate(-90)");
@@ -167,7 +172,7 @@ var margin = {top: 30, right: 30, bottom: 40, left: 60},
     .attr("x", "-5em")
     .attr("y", "-2.5em")
     .style("text-anchor", "end")
-    .text("Cases/Death");
+    .text("Cases/Deaths/Recoveries");
 
   var tooltip = d3.select("#chart-bar").append("div")
     .attr("class", "tooltip")
@@ -207,7 +212,7 @@ function sumAll(d) {
     tooltip.transition()
       .duration(200)
       .style("opacity", 1);
-    tooltip.html("<span>" + d.date + ": +" + d.plusPercent + "% " + d.type + "</span>")
+    tooltip.html("<span>" + d.date + ": " + d.y + " " + d.type + "</span>")
       .style("left", (d3.event.pageX - 25) + "px")
       .style("top", (d3.event.pageY - 28) + "px");
   })

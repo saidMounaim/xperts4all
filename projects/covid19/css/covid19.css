@@ -20,6 +20,7 @@ h1 {
 .wrapper {
   box-shadow: 0 0 40px rgba(51, 59, 102, 0.5);
   display: none;
+  width: 80%;
 }
 .cards {
   background: #fff;
