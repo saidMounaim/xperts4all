@@ -208,7 +208,7 @@ var margin = {top: 30, right: 30, bottom: 40, left: 60},
     .attr("y",  function(d) {
     return height;
   })
-    .attr("width", 12)
+    .attr("width", 8)
     .attr("height", 0)
     .transition().duration(1500)
     .attr("y", function (d) {
