@@ -85,6 +85,10 @@ text {
   font-size: 12px;
   fill: #a7b2eb;
 }
+label {
+  font-size: 12px;
+  fill: #a7b2eb;
+}
 .axis path, .axis line, .gridline line {
   fill: none;
   stroke: #fff;

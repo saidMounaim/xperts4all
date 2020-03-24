@@ -7,6 +7,9 @@ $(".wrapper").delay(600).fadeIn(500);
 
 d3.select("#cucmule").on("change", update);
 
+var formatDate = d3.time.format("%d/%m");
+var parseDate = d3.time.format("%d/%m/%Y").parse;
+
 var barDataset = [
 
 {"day": 1,"date": "02/03/2020", "totalNegatifTests" : 28, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :28, "confirmedCases" : 1, "death" : 0, "recovered" :0},
@@ -72,8 +75,6 @@ function drawBarGraph(data, cumule) {
   "totalRecovered" : "Recovered", "recovered" : "Rrecovered", 
 } 
 
-const windowWIdth = window.innerWidth;
-
 var margin = {top: 30, right: 30, bottom: 40, left: 60},
     width  = window.innerWidth*0.7 - margin.left - margin.right,
     height = 290 - margin.top - margin.bottom;
@@ -84,7 +85,7 @@ var margin = {top: 30, right: 30, bottom: 40, left: 60},
   var n = Math.max(...barDataset.map(d => d.day));
 
   var x = d3.scale.linear()
-  .domain([0, n])
+  .domain([parseDate("02/03/2020"), parseDate("25/03/2020")])
   .rangeRound([0, width], .1);
 
   var y = d3.scale.linear()
@@ -93,7 +94,7 @@ var margin = {top: 30, right: 30, bottom: 40, left: 60},
   var xAxis = d3.svg.axis()
   .scale(x)
   .orient("bottom")
-  .tickFormat(d3.format("d"))
+  .tickFormat(d => {debugger; return formatDate(new Date(d))})
   .ticks(30);
 
   var yAxis = d3.svg.axis()
@@ -115,7 +116,7 @@ var margin = {top: 30, right: 30, bottom: 40, left: 60},
   var layers = d3.layout.stack()
   (status.map(function (c) {
     return data.map(function (d) {
-      return {x: d.day, y: d[c], type: label[c]};
+      return {x: parseDate(d.date), y: d[c], type: label[c]};
     });
   }));
 
@@ -144,12 +145,11 @@ var margin = {top: 30, right: 30, bottom: 40, left: 60},
   svg.append("g")
     .attr("class", "axis axis--x")
     .attr("transform", "translate(6," + height + ")")
-    .call(xAxis)
-    .append("text")
-    .attr("transform", "translate(364,0)")
-    .attr("y", "3em")
-    .style("text-anchor", "middle")
-    .text("Days");
+    .call(xAxis);
+
+   svg.selectAll("g.tick")
+     .selectAll("text")
+     .attr("transform", "translate(6,10) rotate(-65)");
 
   svg.append("g")
     .attr("class", "axis axis--y")
