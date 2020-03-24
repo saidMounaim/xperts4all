@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font: normal 9.3333333333px "Overpass", sans-serif;
+  font: normal 8px "Overpass", sans-serif;
 }
 body {
   background: #76daff;
@@ -27,7 +27,7 @@ h1 {
   background: #fff;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  padding: 30px 40px;
+  padding: 10px 10px;
 }
 .listen-wrap {
   overflow: hidden;
@@ -42,7 +42,7 @@ h1 {
   color: #8e8e8e;
   display: inline-block;
   list-style: none;
-  padding: 0 30px;
+  padding: 0 10px;
   text-align: left;
   text-transform: uppercase;
 }
@@ -60,7 +60,7 @@ h1 {
 }
 .count {
   color: #4a4a4a;
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: -4px;
   line-height: 46px !important;
@@ -68,10 +68,10 @@ h1 {
 }
 .percent {
   color: #4a4a4a;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 12px;
+  /*font-weight: 350;
   letter-spacing: -4px;
-  line-height: 46px !important;
+  line-height: 46px !important;*/
   margin-right: 10px;
 }
 .chart-wrapper {

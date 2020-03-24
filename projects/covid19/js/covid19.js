@@ -242,7 +242,7 @@ $('.percent').each(function () {
     duration: 1500,
     easing: 'swing',
     step: function (now) {
-      $(this).text(Math.ceil(now) + '%');
+      $(this).text('('+Math.ceil(now) + '%)');
     }
   });
 });
