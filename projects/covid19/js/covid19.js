@@ -54,7 +54,7 @@ var energy = {
 };
 
 var margin = {top: 1, right: 1, bottom: 6, left: 1},
-    width = window.innerWidth - margin.left - margin.right,
+    width = window.innerWidth*0.9 - margin.left - margin.right,
     height = window.innerWidth*0.48 - margin.top - margin.bottom;
 
 var formatNumber = d3.format(",.0f"),
@@ -68,12 +68,12 @@ const color = //d3.scale.category20();
       "Deads" : "red",
       "Recovered" : "green",}
 
-const tooltip = d3.select("#chart")
+const tooltip = d3.select("#tooltip")
   .append('div')
   .attr('id', 'tooltip');
 
 
-var svg = d3.select("#chart").append("svg")
+var svg = d3.select("#chart-sankey").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -152,15 +152,19 @@ node.append("rect")
     .text(function(d) { return d.name + "\n" + format(d.value); });
 
 node.append("text")
-    .attr("x", -6)
-    .attr("y", function(d) { return d.dy / 2; })
-    .attr("dy", ".35em")
-    .attr("text-anchor", "end")
-    .attr("transform", null)
+    .attr("x", 20)
+     .attr("x", function(d) { return d.dx/10; })
+     .attr("y", -5)
+    //.attr("y", function(d) { return d.dy / 2; })
+    //.attr("dy", ".35em")
+    //.attr("text-anchor", "middle")
+    .attr("transform", "rotate(90)")
+    .attr("font-size", 12)
     .text(function(d) { return d.name; })
-  .filter(function(d) { return d.x < width / 2; })
+  
+  /*.filter(function(d) { return d.x < width / 2; })
     .attr("x", 6 + sankey.nodeWidth())
-    .attr("text-anchor", "start");
+    .attr("text-anchor", "start")*/;
 
 function dragmove(d) {
   d3.select(this).attr("transform", "translate(" + d.x + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
