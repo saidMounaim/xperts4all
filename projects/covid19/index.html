@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.js"></script>
+    <script src="https://rawgit.com/d3/d3-plugins/master/sankey/sankey.js"></script>
 
     <link rel="stylesheet" href="css/covid19.css" >
     <title>Morocco COVID-19</title>
 </head>
 <body>
-    
     
     <!-- Start Navbar -->
     <nav class="navbar navbar-light bg-info">
@@ -48,6 +49,8 @@
           </div>
           <input id="cucmule" type="checkbox"/> 
           <label class="cucmule" for="cucmule">Cumule</label>
+          
+        <div id="chart" class="container" ></div>
           <div class="chart-wrapper" id="chart-bar">
 
             <ul class="vbroadcast-legend">
