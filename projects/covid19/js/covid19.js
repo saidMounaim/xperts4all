@@ -524,6 +524,125 @@ function dragmove(d) {
 
 
 
+function drawWaffles() {
+
+
+  const chartWrapper = d3.select("#chart-wrapper");
+  chartWrapper.selectAll("*").remove();
+
+
+  d3.select("#cucmule").style("display", "none");
+  d3.select("#cucmuleLabel").style("display", "none");
+
+  const div = d3.select("#chart-wrapper")
+  .append("div")
+  .attr("class", "tooltip")
+  .style("opacity", 0)
+
+        let width,
+            height,
+            widthSquares = 40,
+            heightSquares = 40,
+            squareSize = 25,
+            gap = 1,
+            theData = [];
+
+            const myColors = {
+              "Negatifs": "#CCDBDC", 
+              "Positifs": "#E6C229", 
+              "Recovereds": "#71B340", 
+              "Deads": "#ED254E"
+            }
+
+            const selectedColors = {
+              "Negatifs": "#97D6DB", 
+              "Positifs": "#D3B117", 
+              "Recovereds": "#6ED321", 
+              "Deads": "#A8324A"
+            }
+        
+
+        width = (squareSize * widthSquares) + widthSquares * gap + squareSize;
+        height = (squareSize * heightSquares) + heightSquares * gap + squareSize;
+
+        const svg = d3.select("#chart-wrapper")
+            .append("svg")
+            .attr('class', 'waffle')
+            .attr("width", width)
+            .attr("height", height)
+
+        const originalData = {
+          Negatifs: 965 - 225,
+          Positifs: 225,
+          Recovereds: 7,
+          Deads: 6
+        }
+        
+        const total = Object.keys(originalData).map(k => originalData[k]).reduce((x, y) => x + y);
+  theData = Object.keys(originalData).map(k => d3.range(originalData[k]).map(i => {return {type: k} }))
+    .reduce((x, y) => x.concat(y));
+  
+  
+
+            svg.append("g")
+            .attr('transform', "translate(30, 10)")
+            .selectAll("div")
+            .data(theData)
+            .enter()
+            .append("rect")
+            .attr("width", squareSize)
+            .attr("height", squareSize)
+            .attr("class", d => d.type)
+            .attr("fill", d => myColors[d.type])
+            .attr("y", function(d, i) {
+                let row = Math.floor(i / widthSquares);
+                console.log("y", (row * squareSize) + (row * gap));
+                return (row * squareSize) + (row * gap);
+            })
+            .attr("x", function(d, i) {
+                let col = i % widthSquares;
+                console.log("x", ((col * squareSize) + (col * gap)));
+                return ((col * squareSize) + (col * gap))
+            })
+            .on("mouseover", function(d){
+                div.transition()
+                .duration(100)
+                .style("opacity", 1);
+              
+              const itemNumber = d3.selectAll("." + d.type).size();
+               total
+               d3.selectAll("."+d.type).attr("fill", d => selectedColors[d.type]);
+                 div.html("<span style = 'font-weight: bold'>" + itemNumber + " (" + Math.ceil(itemNumber/total*100) + "%) " + d.type + "</span>")
+                div.style("visibility", "visible")
+                .style("left", (d3.event.pageX - 20) + "px")    
+                .style("top", (d3.event.pageY - 35) + "px")
+              
+          })
+            .on("mousemove", function(d){
+            div.style("left", (d3.event.pageX - 20) + "px")    
+            .style("top", (d3.event.pageY - 65) + "px")
+          })
+          .on("mouseout", function(d){
+            div.transition()
+            .duration(500)
+            div.style("visibility", "hidden")
+              
+        
+               d3.selectAll("."+d.type).attr("fill", d => { return myColors[d.type] });
+              
+           
+          })
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -539,7 +658,8 @@ function drawHistory() {
 
 
 function drawSankey() {
-  drawSankeyGraph(sankeyData);
+  //drawSankeyGraph(sankeyData);
+  drawWaffles()
 }
 
 
