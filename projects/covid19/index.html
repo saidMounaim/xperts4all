@@ -49,25 +49,17 @@
           </div>
           
 
-          <button class="button button1"> History</button>
-
-          <button class="button button1">Sunkey</button>
+          <button class="button" onclick="drawHistory()"> History</button>
+          <button class="button" onclick="drawSankey()">Sunkey</button>
 
           <input id="cucmule" type="checkbox"/> 
           <label class="cucmule" for="cucmule">Cumule</label>
           
-          <div class="chart-wrapper" id="chart-bar">
+          <div class="chart-wrapper" id="chart-wrapper">
 
-            <ul class="vbroadcast-legend">
-              <li class="cases">Confirmed cases</li>
-              <li class="deaths">Deaths</li>
-              <li class="recovered">Recovered</li>
-            </ul>
 
           </div>
           
-            <div id="chart-sankey"></div>
-            <div id="tooltip"><p>Move the mouse</p></div>
         </div>
       </div>
     <!-- End Form -->
