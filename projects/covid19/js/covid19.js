@@ -75,9 +75,9 @@ function drawBarGraph(data, cumule) {
   
   const label = {
     "totalConfirmedCases" : "Confirmed cases", "confirmedCases" : "Confirmed cases", 
-  "totalDeath" : "Death", "death" : "Death", 
-  "totalRecovered" : "Recovered", "recovered" : "Rrecovered", 
-} 
+    "totalDeath" : "Death", "death" : "Death", 
+    "totalRecovered" : "Recovered", "recovered" : "Rrecovered", 
+  } 
 
 let initSize = 30;
 // if (window.innerWidth < 600) {
@@ -119,6 +119,8 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
   chartWrapper.selectAll("*").remove();
 
   chartWrapper.style("background-color", "#333b66");
+  d3.select("#cucmule").style("display", null);
+  d3.select("#cucmuleLabel").style("display", null);
 
   const ul = chartWrapper
   .append("ul")
@@ -380,6 +382,11 @@ function drawSankeyGraph(data) {
   const chartWrapper = d3.select("#chart-wrapper");
   chartWrapper.selectAll("*").remove();
 
+
+  d3.select("#cucmule").style("display", "none");
+  d3.select("#cucmuleLabel").style("display", "none");
+
+
   const tooltipWrapper = chartWrapper.append("div").attr("id", "tooltip");
   tooltipWrapper.append("p").html("Move the mouse");
 
@@ -504,6 +511,28 @@ function dragmove(d) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function drawHistory() {
   drawBarGraph(barDataset, false);
 }
@@ -511,6 +540,14 @@ function drawHistory() {
 
 function drawSankey() {
   drawSankeyGraph(sankeyData);
+}
+
+
+function drawMap() {
+  const chartWrapper = d3.select("#chart-wrapper");
+  chartWrapper.selectAll("*").remove();
+  chartWrapper.append("img").attr("src", "assets/morocco.svg")
+  
 }
 
 

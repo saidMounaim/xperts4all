@@ -24,7 +24,7 @@
     <!-- Start Form  -->
     
     <div class="main-wrapper">
-        <div class="wrapper">
+        <div id="wrapper" class="wrapper">
           <div class="cards">
             <div class="listen-wrap">
               <ul>
@@ -51,9 +51,11 @@
 
           <button class="button" onclick="drawHistory()"> History</button>
           <button class="button" onclick="drawSankey()">Sunkey</button>
+          <button class="button" onclick="drawMap()">Map</button>
+          
 
           <input id="cucmule" type="checkbox"/> 
-          <label class="cucmule" for="cucmule">Cumule</label>
+          <label id="cucmuleLabel" class="cucmule" for="cucmule">Cumule</label>
           
           <div class="chart-wrapper" id="chart-wrapper">
 
