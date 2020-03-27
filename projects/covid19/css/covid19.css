@@ -233,3 +233,7 @@ div.tooltip {
 	 margin-right: 10px;
 }
  
+
+path.region {
+  fill : red;
+}
