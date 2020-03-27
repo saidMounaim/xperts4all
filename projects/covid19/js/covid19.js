@@ -577,6 +577,9 @@ function drawWaffles() {
             gap = 1,
             theData = [];
 
+            if (width > 400) {
+              width = 400;
+            }
         
             // 
         
@@ -604,8 +607,8 @@ function drawWaffles() {
           Deads: Math.ceil(6 / 965 * 100)
         }
         const total = Object.keys(originalData).map(k => originalData[k]).reduce((x, y) => x + y);
-  theData = Object.keys(originalData).map(k => d3.range(originalData[k]).map(i => {return {type: k} }))
-    .reduce((x, y) => x.concat(y));
+        theData = Object.keys(originalData).map(k => d3.range(originalData[k]).map(i => {return {type: k} }))
+          .reduce((x, y) => x.concat(y));
   
   
 
@@ -696,8 +699,8 @@ function drawMap() {
 
   chartWrapper.style("background-color", "white");
 
-  const width = (window.innerWidth * 0.78);
-  let scale = 612.51373 / width;
+  const width = (window.innerWidth);
+  let scale = 612 / width;
   if (scale < 0.4 || scale > 1) {
     scale = 0.5;
   }
