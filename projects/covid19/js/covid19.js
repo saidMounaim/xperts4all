@@ -543,6 +543,8 @@ function drawWaffles() {
   const chartWrapper = d3.select("#chart-wrapper");
   chartWrapper.selectAll("*").remove();
 
+  chartWrapper.style("background-color", "white");
+
 
   const legendDiv = chartWrapper.append("div");
           

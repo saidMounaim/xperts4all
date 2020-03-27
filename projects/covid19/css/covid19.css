@@ -220,14 +220,15 @@ div.tooltip {
 }
  .waffle-chart-legend--text {
 	 display: inline-block;
-	 margin-right: 10px;
+   margin-right: 10px;
+   font-size: 20px;
 }
  .waffle-chart-legend--items:last-child .waffle-chart-legend--text:after {
 	 content: " *";
 }
  .rect {
-	 width: 20px;
-   height: 20px;
+	 width: 15px;
+   height: 15px;
 	 float: left;
 	 margin-right: 10px;
 }
