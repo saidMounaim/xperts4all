@@ -178,9 +178,9 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
     .attr("y", "3em")
     .style("text-anchor", "middle")
     .text("Days since first case 02/03/2020");
-  //  svg.selectAll("g.tick")
-  //    .selectAll("text")
-  //    .attr("transform", "translate(0,20) rotate(-90)");
+
+   svg.selectAll("g.tick")
+   .selectAll("text").attr("transform", "translate(-10, 10)  rotate(-90)");
 
   svg.append("g")
     .attr("class", "axis axis--y")
