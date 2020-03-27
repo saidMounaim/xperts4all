@@ -541,8 +541,8 @@ function drawWaffles() {
 
         let width,
             height,
-            widthSquares = 40,
-            heightSquares = 40,
+            widthSquares = 10,
+            heightSquares = 10,
             squareSize = 25,
             gap = 1,
             theData = [];
@@ -572,12 +572,12 @@ function drawWaffles() {
             .attr("height", height)
 
         const originalData = {
-          Negatifs: 965 - 225,
-          Positifs: 225,
-          Recovereds: 7,
-          Deads: 6
+          Negatifs: Math.ceil((965 - 225 - 7 - 6) / 965 * 100),
+          Positifs: Math.ceil((225 - 7 - 6) / 965 * 100),
+          Recovereds: Math.ceil(7 / 965 * 100),
+          Deads: Math.ceil(6 / 965 * 100)
         }
-        
+        console.log("originalData", originalData);
         const total = Object.keys(originalData).map(k => originalData[k]).reduce((x, y) => x + y);
   theData = Object.keys(originalData).map(k => d3.range(originalData[k]).map(i => {return {type: k} }))
     .reduce((x, y) => x.concat(y));
