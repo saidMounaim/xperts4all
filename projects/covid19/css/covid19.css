@@ -261,7 +261,9 @@ div.tooltip {
  
 
 path.region {
-  fill : red;
+  fill : #ffffff;
+  stroke: #646464;
+  stroke-width: 1px;
 }
 
 
