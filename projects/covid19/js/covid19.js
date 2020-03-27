@@ -218,7 +218,7 @@ function sumAll(d) {
     .attr("transform", d => "translate(" + (8 + x(d.day)) + "," + y(sumAll(d)) + ") rotate(-90)")
     .append("text")
     .text(function (d) {
-      return d.plusPercent + '%';
+      return '+' + d.plusPercent + '%';
     })
 
 
