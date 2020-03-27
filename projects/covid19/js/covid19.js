@@ -8,8 +8,6 @@ $(".chart-sankey").delay(600).fadeIn(500);
 
 
 
-d3.select("#cucmule").on("change", update);
-
 var formatDate = d3.time.format("%d/%m");
 var parseDate = d3.time.format("%d/%m/%Y").parse;
 
@@ -65,7 +63,13 @@ d3.select("#deathsPercent").text(deathsPercent);
 d3.select("#recoveredPercent").text(recoveredPercent);
 
 function update() {
-  const cumule = d3.select("#cucmule").property("checked")
+  const cumuleItem = d3.select("#cumule");
+  const cumule = cumuleItem.attr("class") === "cumule_nok";
+  if (cumule) {
+    cumuleItem.attr("class", "cumule_ok");
+  } else {
+    cumuleItem.attr("class", "cumule_nok");
+  }
   drawBarGraph(barDataset, cumule);
 }
 
@@ -81,6 +85,8 @@ function drawBarGraph(data, cumule) {
     "totalRecovered" : "Recovered", "recovered" : "Rrecovered", 
   } 
 
+  
+
 let initSize = 30;
 // if (window.innerWidth < 600) {
 //   initSize = 10;
@@ -91,7 +97,7 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
     height = 290 - margin.top - margin.bottom;
 
   var z = d3.scale.ordinal()
-  .range(["#50E3C2", "#EF5C6E", "#FFFFFF"]);
+  .range(["#CCDBDC", "#ED254E", "#71B340"]);
 
   var n = Math.max(...barDataset.map(d => d.day));
 
@@ -121,8 +127,6 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
   chartWrapper.selectAll("*").remove();
 
   chartWrapper.style("background-color", "#333b66");
-  d3.select("#cucmule").style("display", null);
-  d3.select("#cucmuleLabel").style("display", null);
 
   const ul = chartWrapper
   .append("ul")
@@ -130,6 +134,13 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
   ul.append("li").attr("class", "cases").html("Confirmed cases");
   ul.append("li").attr("class", "deaths").html("Deaths");
   ul.append("li").attr("class", "recovered").html("Recovered");
+  const cumuleItem = ul.append("div").attr("id", "cumule").html("Cumule").on("click", update);
+
+  if (cumule) {
+    cumuleItem.attr("class", "cumule_ok");
+  } else {
+    cumuleItem.attr("class", "cumule_nok");
+  }
 
   var svg = chartWrapper
   .append("svg")
