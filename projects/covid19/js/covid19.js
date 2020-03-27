@@ -526,10 +526,40 @@ function dragmove(d) {
 
 function drawWaffles() {
 
+  const myColors = {
+    "Negatifs": "#CCDBDC", 
+    "Positifs": "#E6C229", 
+    "Recovereds": "#71B340", 
+    "Deads": "#ED254E"
+  }
+
+  const selectedColors = {
+    "Negatifs": "#97D6DB", 
+    "Positifs": "#D3B117", 
+    "Recovereds": "#6ED321", 
+    "Deads": "#A8324A"
+  }
 
   const chartWrapper = d3.select("#chart-wrapper");
   chartWrapper.selectAll("*").remove();
 
+
+  const legendDiv = chartWrapper.append("div");
+          
+  const legendRow = legendDiv.selectAll("foo")
+      .data(Object.keys(myColors))
+      .enter()
+      .append("div")
+      .attr('class', 'waffle-chart-legend--items')
+
+  legendRow.append("div")
+      .html("&nbsp")
+      .attr("class", "rect")
+      .style("background-color", k => myColors[k]);
+
+  legendRow.append("div")
+      .attr('class', 'waffle-chart-legend--text')
+      .html(d => d);
 
   d3.select("#cucmule").style("display", "none");
   d3.select("#cucmuleLabel").style("display", "none");
@@ -539,37 +569,31 @@ function drawWaffles() {
   .attr("class", "tooltip")
   .style("opacity", 0)
 
-        let width,
-            height,
-            widthSquares = 10,
-            heightSquares = 10,
-            squareSize = 25,
+        let width = window.innerWidth * 0.78 - 10,
+            squaresPerLign = 10,
+            squareSize,
             gap = 1,
             theData = [];
 
-            const myColors = {
-              "Negatifs": "#CCDBDC", 
-              "Positifs": "#E6C229", 
-              "Recovereds": "#71B340", 
-              "Deads": "#ED254E"
-            }
-
-            const selectedColors = {
-              "Negatifs": "#97D6DB", 
-              "Positifs": "#D3B117", 
-              "Recovereds": "#6ED321", 
-              "Deads": "#A8324A"
-            }
         
+            // 
+        
+            // width = ((squareSize + gap) * squaresPerLign);
+            
+            // width / (squareSize + gap) = (squaresPerLign);
+            // (squareSize + gap) = (squaresPerLign) / width;
+            squareSize = width / (squaresPerLign + gap);
 
-        width = (squareSize * widthSquares) + widthSquares * gap + squareSize;
-        height = (squareSize * heightSquares) + heightSquares * gap + squareSize;
+        // width = (squareSize * widthSquares) + widthSquares * gap + squareSize;
+        // height = (squareSize * heightSquares) + heightSquares * gap + squareSize;
 
         const svg = d3.select("#chart-wrapper")
             .append("svg")
             .attr('class', 'waffle')
             .attr("width", width)
-            .attr("height", height)
+            .attr("height", width)
+
+
 
         const originalData = {
           Negatifs: Math.ceil((965 - 225 - 7 - 6) / 965 * 100),
@@ -585,7 +609,7 @@ function drawWaffles() {
   
 
             svg.append("g")
-            .attr('transform', "translate(30, 10)")
+            .attr('transform', "translate(10, 10)")
             .selectAll("div")
             .data(theData)
             .enter()
@@ -595,12 +619,12 @@ function drawWaffles() {
             .attr("class", d => d.type)
             .attr("fill", d => myColors[d.type])
             .attr("y", function(d, i) {
-                let row = Math.floor(i / widthSquares);
+                let row = Math.floor(i / squaresPerLign);
                 console.log("y", (row * squareSize) + (row * gap));
                 return (row * squareSize) + (row * gap);
             })
             .attr("x", function(d, i) {
-                let col = i % widthSquares;
+                let col = i % squaresPerLign;
                 console.log("x", ((col * squareSize) + (col * gap)));
                 return ((col * squareSize) + (col * gap))
             })
@@ -657,7 +681,7 @@ function drawHistory() {
 }
 
 
-function drawSankey() {
+function drawWaffle() {
   //drawSankeyGraph(sankeyData);
   drawWaffles()
 }

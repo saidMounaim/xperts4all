@@ -196,3 +196,39 @@ div.tooltip {
   transition: all 0.2s ease-out;
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .waffle-chart-legend--items {
+   display: inline-block;
+   margin-left: 10px;
+}
+ .waffle-chart-legend--text {
+	 display: inline-block;
+	 margin-right: 10px;
+}
+ .waffle-chart-legend--items:last-child .waffle-chart-legend--text:after {
+	 content: " *";
+}
+ .rect {
+	 width: 20px;
+   height: 20px;
+	 float: left;
+	 margin-right: 10px;
+}
+ 
