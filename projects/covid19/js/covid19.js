@@ -14,32 +14,34 @@ var formatDate = d3.time.format("%d/%m");
 var parseDate = d3.time.format("%d/%m/%Y").parse;
 
 var barDataset = [
-  
-  {"day": 	1	,"date": "	02/03/2020	", "totalNegatifTests" : 	28	, "totalConfirmedCases" : 	1	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	28	, "confirmedCases" : 	1	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	0	},
-  {"day": 	2	,"date": "	03/03/2020	", "totalNegatifTests" : 	32	, "totalConfirmedCases" : 	1	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	4	, "confirmedCases" : 	0	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	0	},
-  {"day": 	3	,"date": "	04/03/2020	", "totalNegatifTests" : 	34	, "totalConfirmedCases" : 	1	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	2	, "confirmedCases" : 	0	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	0	},
-  {"day": 	4	,"date": "	05/03/2020	", "totalNegatifTests" : 	48	, "totalConfirmedCases" : 	2	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	14	, "confirmedCases" : 	1	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	100	},
-  {"day": 	5	,"date": "	06/03/2020	", "totalNegatifTests" : 	50	, "totalConfirmedCases" : 	2	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	2	, "confirmedCases" : 	0	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	0	},
-  {"day": 	6	,"date": "	07/03/2020	", "totalNegatifTests" : 	55	, "totalConfirmedCases" : 	2	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	5	, "confirmedCases" : 	0	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	0	},
-  {"day": 	7	,"date": "	08/03/2020	", "totalNegatifTests" : 	60	, "totalConfirmedCases" : 	2	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	5	, "confirmedCases" : 	0	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	0	},
-  {"day": 	8	,"date": "	09/03/2020	", "totalNegatifTests" : 	60	, "totalConfirmedCases" : 	2	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	0	, "confirmedCases" : 	0	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	0	},
-  {"day": 	9	,"date": "	10/03/2020	", "totalNegatifTests" : 	63	, "totalConfirmedCases" : 	3	, "totalDeath" : 	0	, "totalRecovered" : 	0	, "negatifTests" :	3	, "confirmedCases" : 	1	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	50	},
-  {"day": 	10	,"date": "	11/03/2020	", "totalNegatifTests" : 	78	, "totalConfirmedCases" : 	6	, "totalDeath" : 	1	, "totalRecovered" : 	0	, "negatifTests" :	15	, "confirmedCases" : 	3	, "death" : 	1	, "recovered" :	0	, "plusPercent" :	100	},
-  {"day": 	11	,"date": "	12/03/2020	", "totalNegatifTests" : 	91	, "totalConfirmedCases" : 	6	, "totalDeath" : 	1	, "totalRecovered" : 	0	, "negatifTests" :	13	, "confirmedCases" : 	0	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	0	},
-  {"day": 	12	,"date": "	13/03/2020	", "totalNegatifTests" : 	106	, "totalConfirmedCases" : 	8	, "totalDeath" : 	1	, "totalRecovered" : 	1	, "negatifTests" :	15	, "confirmedCases" : 	2	, "death" : 	0	, "recovered" :	1	, "plusPercent" :	33	},
-  {"day": 	13	,"date": "	14/03/2020	", "totalNegatifTests" : 	112	, "totalConfirmedCases" : 	18	, "totalDeath" : 	1	, "totalRecovered" : 	1	, "negatifTests" :	6	, "confirmedCases" : 	10	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	125	},
-  {"day": 	14	,"date": "	15/03/2020	", "totalNegatifTests" : 	122	, "totalConfirmedCases" : 	28	, "totalDeath" : 	1	, "totalRecovered" : 	1	, "negatifTests" :	10	, "confirmedCases" : 	10	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	56	},
-  {"day": 	15	,"date": "	16/03/2020	", "totalNegatifTests" : 	152	, "totalConfirmedCases" : 	37	, "totalDeath" : 	1	, "totalRecovered" : 	1	, "negatifTests" :	30	, "confirmedCases" : 	9	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	32	},
-  {"day": 	16	,"date": "	17/03/2020	", "totalNegatifTests" : 	183	, "totalConfirmedCases" : 	44	, "totalDeath" : 	2	, "totalRecovered" : 	1	, "negatifTests" :	31	, "confirmedCases" : 	7	, "death" : 	1	, "recovered" :	0	, "plusPercent" :	19	},
-  {"day": 	17	,"date": "	18/03/2020	", "totalNegatifTests" : 	263	, "totalConfirmedCases" : 	54	, "totalDeath" : 	2	, "totalRecovered" : 	1	, "negatifTests" :	80	, "confirmedCases" : 	10	, "death" : 	0	, "recovered" :	0	, "plusPercent" :	23	},
-  {"day": 	18	,"date": "	19/03/2020	", "totalNegatifTests" : 	307	, "totalConfirmedCases" : 	63	, "totalDeath" : 	2	, "totalRecovered" : 	2	, "negatifTests" :	44	, "confirmedCases" : 	9	, "death" : 	0	, "recovered" :	1	, "plusPercent" :	17	},
-  {"day": 	19	,"date": "	20/03/2020	", "totalNegatifTests" : 	385	, "totalConfirmedCases" : 	86	, "totalDeath" : 	3	, "totalRecovered" : 	2	, "negatifTests" :	78	, "confirmedCases" : 	23	, "death" : 	1	, "recovered" :	0	, "plusPercent" :	37	},
-  {"day": 	20	,"date": "	21/03/2020	", "totalNegatifTests" : 	441	, "totalConfirmedCases" : 	96	, "totalDeath" : 	3	, "totalRecovered" : 	3	, "negatifTests" :	56	, "confirmedCases" : 	10	, "death" : 	0	, "recovered" :	1	, "plusPercent" :	12	},
-  {"day": 	21	,"date": "	22/03/2020	", "totalNegatifTests" : 	512	, "totalConfirmedCases" : 	115	, "totalDeath" : 	4	, "totalRecovered" : 	3	, "negatifTests" :	71	, "confirmedCases" : 	19	, "death" : 	1	, "recovered" :	0	, "plusPercent" :	20	},
-  {"day": 	22	,"date": "	23/03/2020	", "totalNegatifTests" : 	643	, "totalConfirmedCases" : 	143	, "totalDeath" : 	4	, "totalRecovered" : 	5	, "negatifTests" :	131	, "confirmedCases" : 	28	, "death" : 	0	, "recovered" :	2	, "plusPercent" :	24	},
-  {"day": 	23	,"date": "	24/03/2020	", "totalNegatifTests" : 	685	, "totalConfirmedCases" : 	170	, "totalDeath" : 	5	, "totalRecovered" : 	6	, "negatifTests" :	42	, "confirmedCases" : 	27	, "death" : 	1	, "recovered" :	1	, "plusPercent" :	19	},
-  {"day": 	24	,"date": "	25/03/2020	", "totalNegatifTests" : 	740	, "totalConfirmedCases" : 	225	, "totalDeath" : 	6	, "totalRecovered" : 	7	, "negatifTests" :	55	, "confirmedCases" : 	55	, "death" : 	1	, "recovered" :	1	, "plusPercent" :	32	},
-  
+
+  {"day": 1,"date": "02/03/2020", "totalNegatifTests" : 28, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :28, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 2,"date": "03/03/2020", "totalNegatifTests" : 32, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :4, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 3,"date": "04/03/2020", "totalNegatifTests" : 34, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :2, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 4,"date": "05/03/2020", "totalNegatifTests" : 48, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :14, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :100},
+{"day": 5,"date": "06/03/2020", "totalNegatifTests" : 50, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :2, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 6,"date": "07/03/2020", "totalNegatifTests" : 55, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :5, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 7,"date": "08/03/2020", "totalNegatifTests" : 60, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :5, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 8,"date": "09/03/2020", "totalNegatifTests" : 60, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :0, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 9,"date": "10/03/2020", "totalNegatifTests" : 63, "totalConfirmedCases" : 3, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :3, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :50},
+{"day": 10,"date": "11/03/2020", "totalNegatifTests" : 78, "totalConfirmedCases" : 6, "totalDeath" : 1, "totalRecovered" : 0, "negatifTests" :15, "confirmedCases" : 3, "death" : 1, "recovered" :0, "plusPercent" :100},
+{"day": 11,"date": "12/03/2020", "totalNegatifTests" : 91, "totalConfirmedCases" : 6, "totalDeath" : 1, "totalRecovered" : 0, "negatifTests" :13, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 12,"date": "13/03/2020", "totalNegatifTests" : 106, "totalConfirmedCases" : 8, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :15, "confirmedCases" : 2, "death" : 0, "recovered" :1, "plusPercent" :33},
+{"day": 13,"date": "14/03/2020", "totalNegatifTests" : 112, "totalConfirmedCases" : 18, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :6, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :125},
+{"day": 14,"date": "15/03/2020", "totalNegatifTests" : 122, "totalConfirmedCases" : 28, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :10, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :56},
+{"day": 15,"date": "16/03/2020", "totalNegatifTests" : 152, "totalConfirmedCases" : 37, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :30, "confirmedCases" : 9, "death" : 0, "recovered" :0, "plusPercent" :32},
+{"day": 16,"date": "17/03/2020", "totalNegatifTests" : 183, "totalConfirmedCases" : 44, "totalDeath" : 2, "totalRecovered" : 1, "negatifTests" :31, "confirmedCases" : 7, "death" : 1, "recovered" :0, "plusPercent" :19},
+{"day": 17,"date": "18/03/2020", "totalNegatifTests" : 263, "totalConfirmedCases" : 54, "totalDeath" : 2, "totalRecovered" : 1, "negatifTests" :80, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :23},
+{"day": 18,"date": "19/03/2020", "totalNegatifTests" : 307, "totalConfirmedCases" : 63, "totalDeath" : 2, "totalRecovered" : 2, "negatifTests" :44, "confirmedCases" : 9, "death" : 0, "recovered" :1, "plusPercent" :17},
+{"day": 19,"date": "20/03/2020", "totalNegatifTests" : 385, "totalConfirmedCases" : 86, "totalDeath" : 3, "totalRecovered" : 2, "negatifTests" :78, "confirmedCases" : 23, "death" : 1, "recovered" :0, "plusPercent" :37},
+{"day": 20,"date": "21/03/2020", "totalNegatifTests" : 441, "totalConfirmedCases" : 96, "totalDeath" : 3, "totalRecovered" : 3, "negatifTests" :56, "confirmedCases" : 10, "death" : 0, "recovered" :1, "plusPercent" :12},
+{"day": 21,"date": "22/03/2020", "totalNegatifTests" : 512, "totalConfirmedCases" : 115, "totalDeath" : 4, "totalRecovered" : 3, "negatifTests" :71, "confirmedCases" : 19, "death" : 1, "recovered" :0, "plusPercent" :20},
+{"day": 22,"date": "23/03/2020", "totalNegatifTests" : 643, "totalConfirmedCases" : 143, "totalDeath" : 4, "totalRecovered" : 5, "negatifTests" :131, "confirmedCases" : 28, "death" : 0, "recovered" :2, "plusPercent" :24},
+{"day": 23,"date": "24/03/2020", "totalNegatifTests" : 685, "totalConfirmedCases" : 170, "totalDeath" : 5, "totalRecovered" : 6, "negatifTests" :42, "confirmedCases" : 27, "death" : 1, "recovered" :1, "plusPercent" :19},
+{"day": 24,"date": "25/03/2020", "totalNegatifTests" : 740, "totalConfirmedCases" : 225, "totalDeath" : 6, "totalRecovered" : 7, "negatifTests" :55, "confirmedCases" : 55, "death" : 1, "recovered" :1, "plusPercent" :32},
+{"day": 25,"date": "26/03/2020", "totalNegatifTests" : 931, "totalConfirmedCases" : 275, "totalDeath" : 10, "totalRecovered" : 8, "negatifTests" :191, "confirmedCases" : 50, "death" : 4, "recovered" :1, "plusPercent" :22},
+{"day": 26,"date": "27/03/2020", "totalNegatifTests" : 1207, "totalConfirmedCases" : 333, "totalDeath" : 21, "totalRecovered" : 11, "negatifTests" :276, "confirmedCases" : 58, "death" : 11, "recovered" :3, "plusPercent" :21},
+
 
 
 ];
@@ -299,223 +301,6 @@ $('.percent').each(function () {
 
 
 
-var sankeyData = {
-  "nodes": [
-		{
-			"name": "Tests dones"  // 0
-		},
-		{
-			"name": "Positifs"     // 1
-		},
-		{
-			"name": "Negatifs"     // 2
-		},
-		{
-			"name": "Negatifs/Recovered"  // 3
-		},
-		{
-			"name": "Deads"               // 4
-		},
-		{
-			"name": "Still sick"          // 5
-		}
-	],
-	"links": [
-		{
-			"source": 0,
-			"target": 1,
-			"value": cases
-		},
-		{
-			"source": 1,
-			"target": 5,
-			"value": cases - recovered - deaths
-		},
-		{
-			"source": 1,
-			"target": 3,
-			"value": recovered
-		},
-		{
-			"source": 1,
-			"target": 4,
-			"value": deaths
-		},
-		{
-			"source": 0,
-			"target": 2,
-			"value": tests
-		},
-		{
-			"source": 2,
-			"target": 3,
-			"value": tests
-		}
-	]
-};
-
-// var margin = {top: 1, right: 1, bottom: 6, left: 1},
-//     width = window.innerWidth*0.9 - margin.left - margin.right,
-//     height = window.innerWidth*0.48 - margin.top - margin.bottom;
-
-let initSize = 30;
-var margin = {top: 30, right: 1, bottom: 6, left: 1},
-    width  = window.innerWidth*0.78 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
-
-
-
-var formatNumber = d3.format(",.0f"),
-    format = function(d) { return formatNumber(d) + " TWh"; };
-const color = //d3.scale.category20();
-      {"Tests dones" : "gray",
-      "Negatifs/Recovered" : "green",
-      "Negatifs" : "green",
-      "Positifs" : "yellow",
-      "Still sick" : "yellow",
-      "Deads" : "red",
-      "Recovered" : "green",}
-
-
-function drawSankeyGraph(data) {
-
-  const chartWrapper = d3.select("#chart-wrapper");
-  chartWrapper.selectAll("*").remove();
-
-
-  d3.select("#cucmule").style("display", "none");
-  d3.select("#cucmuleLabel").style("display", "none");
-
-
-  const tooltipWrapper = chartWrapper.append("div").attr("id", "tooltip");
-  tooltipWrapper.append("p").html("Move the mouse");
-
-  chartWrapper.append("div").attr("id", "chart-sankey");
-
-  chartWrapper.style("background-color", "white");
-
-  const tooltip = d3.select("#tooltip")
-    .append('div')
-    .attr('id', 'tooltip');
-
-
-  var svg = d3.select("#chart-sankey").append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-  var sankey = d3.sankey()
-      .nodeWidth(15)
-      .nodePadding(10)
-      .size([width, height]);
-
-  var path = sankey.link();
-
-
-  sankey
-      .nodes(data.nodes)
-      .links(data.links)
-      .layout(32);
-
-  var link = svg.append("g").selectAll(".link")
-      .data(data.links)
-    .enter().append("path")
-      .attr("class", "link")
-      .attr("d", path)
-      .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-      .sort(function(a, b) { return b.dy - a.dy; })
-
-      .on('mouseenter', function (d) {
-        d3
-          .select(this)
-          .transition()
-          .attr('opacity', 1);
-
-        tooltip
-          .selectAll('p')
-          .remove();
-
-        const percent = Math.floor(d.value / d.source.value * 100);
-        
-        tooltip
-          .append('p')
-          .html(`<strong>${d.value}</strong> (${percent}%) of <strong>${d.source.name}</strong> are <strong>${d.target.name}</strong>`);
-
-        tooltip
-          .style('opacity', 1)
-          .style('left', `${d3.event.pageX}px`)
-          .style('top', `${d3.event.pageY}px`);
-      })
-      .on('mouseout', function () {
-        d3
-          .select(this)
-          .transition()
-          .attr('opacity', 0.5);
-
-        tooltip
-          .style('opacity', 0)
-          .selectAll('p')
-          .remove();
-          
-        tooltip
-        .append('p')
-        .html('Move the mouse');
-      });
-
-
-  link.append("text")
-      .attr("fill", "black").append("textPath")
-      .text(function(d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
-
-  var node = svg.append("g").selectAll(".node")
-      .data(data.nodes)
-    .enter().append("g")
-      .attr("class", "node")
-      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-    .call(d3.behavior.drag()
-      .origin(function(d) { return d; })
-      .on("dragstart", function() { this.parentNode.appendChild(this); })
-      .on("drag", dragmove));
-
-  node.append("rect")
-      .attr("height", function(d) { return d.dy; })
-      .attr("width", sankey.nodeWidth())
-      .style("fill", function(d) { return d.color = color[d.name]; })  //.replace(/ .*/, "")
-      .style("stroke", function(d) { return d3.rgb(d.color).darker(2); })
-    .append("title")
-      .text(function(d) { return d.name + "\n" + format(d.value); });
-
-  node.append("text")
-      .attr("x", 20)
-      .attr("x", function(d) { return d.dx/10; })
-      .attr("y", -5)
-      //.attr("y", function(d) { return d.dy / 2; })
-      //.attr("dy", ".35em")
-      //.attr("text-anchor", "middle")
-      .attr("transform", "rotate(90)")
-      .attr("font-size", 12)
-      .attr("fill", "black")
-      .text(function(d) { return d.name; })
-    
-    /*.filter(function(d) { return d.x < width / 2; })
-      .attr("x", 6 + sankey.nodeWidth())
-      .attr("text-anchor", "start")*/;
-}
-
-function dragmove(d) {
-  d3.select(this).attr("transform", "translate(" + d.x + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
-  sankey.relayout();
-  link.attr("d", path);
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -598,16 +383,22 @@ function drawWaffles() {
             .attr("width", width)
             .attr("height", width)
 
+        const totalTestsDone = tests + cases + deaths + recovered;
 
-
-        const originalData = {
-          Negatifs: Math.ceil((965 - 225 - 7 - 6) / 965 * 100),
-          Positifs: Math.ceil((225 - 7 - 6) / 965 * 100),
-          Recovereds: Math.ceil(7 / 965 * 100),
-          Deads: Math.ceil(6 / 965 * 100)
+        const originalDataPercent = {
+          Negatifs: Math.round(tests / totalTestsDone * 100),
+          Positifs: Math.round(cases / totalTestsDone * 100),
+          Recovereds: Math.round(recovered / totalTestsDone * 100),
+          Deads: Math.round(deaths / totalTestsDone * 100)
         }
-        const total = Object.keys(originalData).map(k => originalData[k]).reduce((x, y) => x + y);
-        theData = Object.keys(originalData).map(k => d3.range(originalData[k]).map(i => {return {type: k} }))
+        const originalData = {
+          Negatifs: tests,
+          Positifs: cases,
+          Recovereds: recovered,
+          Deads: deaths
+        }
+
+        theData = Object.keys(originalDataPercent).map(k => d3.range(originalDataPercent[k]).map(i => {return {type: k} }))
           .reduce((x, y) => x.concat(y));
   
   
@@ -635,10 +426,8 @@ function drawWaffles() {
                 .duration(100)
                 .style("opacity", 1);
               
-              const itemNumber = d3.selectAll("." + d.type).size();
-               total
-               d3.selectAll("."+d.type).attr("fill", d => selectedColors[d.type]);
-                 div.html("<span style = 'font-weight: bold'>" + itemNumber + " (" + Math.ceil(itemNumber/total*100) + "%) " + d.type + "</span>")
+               d3.selectAll("." + d.type).attr("fill", d => selectedColors[d.type]);
+                 div.html("<span style = 'font-weight: bold'>" + originalData[d.type] + " (" + originalDataPercent[d.type] + "%) " + d.type + "</span>")
                 div.style("visibility", "visible")
                 .style("left", (d3.event.pageX - 20) + "px")    
                 .style("top", (d3.event.pageY - 35) + "px")
