@@ -773,6 +773,28 @@ function drawMap() {
   '	id="MA-16" />	' +
   '	</g></svg>	' 
   );
+
+  
+  chartWrapper.append("div").attr("id", "tooltip")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+    
+  const tooltip = chartWrapper.select("#tooltip");
+
+  chartWrapper.select("svg").select("g").selectAll("path")
+  .on("mouseover", function () {
+  tooltip.transition()
+    .duration(200)
+    .style("opacity", 1);
+  tooltip.html("<span>" +d3.select(this).attr("title") + "</span>")
+    .style("left", (d3.event.pageX - 25) + "px")
+    .style("top", (d3.event.pageY - 28) + "px");
+})
+  .on("mouseout", function () {
+  tooltip.transition()
+    .duration(500)
+    .style("opacity", 0);
+})
   
 }
 
