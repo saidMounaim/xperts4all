@@ -11,6 +11,8 @@
     <script src="https://rawgit.com/d3/d3-plugins/master/sankey/sankey.js"></script>
 
     <link rel="stylesheet" href="css/covid19.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" >
+    
     <title>Morocco COVID-19</title>
 </head>
 <body>
@@ -48,11 +50,6 @@
             </div>
           </div>
           
-
-          <button class="button" onclick="drawHistory()"> History</button>
-          <button class="button" onclick="drawWaffle()">Waffle</button>
-          <button class="button" onclick="drawMap()">Map</button>
-          
           <div class="chart-wrapper" id="chart-wrapper">
 
 
@@ -64,7 +61,7 @@
 
 
 
-    <div id="circularMenu" class="circular-menu">
+    <!-- <div id="circularMenu" class="circular-menu">
 
       <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
         <i class="fa fa-plus"></i>
@@ -77,7 +74,7 @@
         <a href="#" class="menu-item fa fa-linkedin"></a>
       </menu>
     
-    </div>
+    </div> -->
     
     
     <div id="circularMenu1" class="circular-menu circular-menu-left active">
@@ -87,10 +84,9 @@
       </a>
     
       <menu class="items-wrapper">
-        <a href="#" class="menu-item fa fa-home"></a>
-        <a href="#" class="menu-item fa fa-user"></a>
-        <a href="#" class="menu-item fa fa-pie-chart"></a>
-        <a href="#" class="menu-item fa fa-cog"></a>
+        <a href="#" class="menu-item fa fa-home" onclick="drawHistory()"></a>
+        <a href="#" class="menu-item fa fa-user" onclick="drawWaffle()"></a>
+        <a href="#" class="menu-item fa fa-pie-chart" onclick="drawMap()"></a>
       </menu>
     
     </div>

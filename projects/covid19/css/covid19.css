@@ -125,9 +125,12 @@ div.tooltip {
   float: left;
   color: #fff;
 }
+.vbroadcast-legend li:first-child {
+  margin-left: 0px;
+}
 .vbroadcast-legend li {
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
   float: left;
   list-style: none;
   margin-left: 20px;
@@ -165,7 +168,7 @@ div.tooltip {
   -khtml-border-radius: 5px;
   color: #fff;
   display: inline;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .cumule_nok {
