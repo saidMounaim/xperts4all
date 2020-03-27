@@ -131,8 +131,8 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
   const ul = chartWrapper
   .append("ul")
   .attr("class", "vbroadcast-legend");
-  ul.append("li").attr("class", "cases").html("Confirmed cases");
-  ul.append("li").attr("class", "deaths").html("Deaths");
+  ul.append("li").attr("class", "cases").html("Confirmed");
+  ul.append("li").attr("class", "deaths").html("Deads");
   ul.append("li").attr("class", "recovered").html("Recovered");
   const cumuleItem = ul.append("div").attr("id", "cumule").html("Cumule").on("click", update);
 
