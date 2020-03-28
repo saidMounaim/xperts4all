@@ -575,3 +575,207 @@ function drawMap() {
 
 
 drawBarGraph(barDataset, false);
+
+
+
+
+
+
+
+function drawBubblesGraph() {
+  
+  
+  
+let data = 
+[
+ 
+{"country" : "USA", "totalConfirmedCases" : "104906", "totalDeath" : "1715", "totalRecovered" : "2537", "totalConfirmedCasesPer1M" : "317", "totalDeathPer1M" : "5"},
+{"country" : "Italy", "totalConfirmedCases" : "86498", "totalDeath" : "9134", "totalRecovered" : "1095", "totalConfirmedCasesPer1M" : "1431", "totalDeathPer1M" : "151"},
+{"country" : "China", "totalConfirmedCases" : "81394", "totalDeath" : "3295", "totalRecovered" : "74971", "totalConfirmedCasesPer1M" : "57", "totalDeathPer1M" : "2"},
+{"country" : "Spain", "totalConfirmedCases" : "72248", "totalDeath" : "5690", "totalRecovered" : "12285", "totalConfirmedCasesPer1M" : "1545", "totalDeathPer1M" : "122"},
+{"country" : "Germany", "totalConfirmedCases" : "5334", "totalDeath" : "399", "totalRecovered" : "6658", "totalConfirmedCasesPer1M" : "637", "totalDeathPer1M" : "5"},
+{"country" : "France", "totalConfirmedCases" : "32964", "totalDeath" : "1995", "totalRecovered" : "57", "totalConfirmedCasesPer1M" : "505", "totalDeathPer1M" : "31"},
+{"country" : "UK", "totalConfirmedCases" : "17089", "totalDeath" : "1019", "totalRecovered" : "135", "totalConfirmedCasesPer1M" : "252", "totalDeathPer1M" : "15"},
+{"country" : "S. Korea", "totalConfirmedCases" : "9478", "totalDeath" : "144", "totalRecovered" : "4811", "totalConfirmedCasesPer1M" : "185", "totalDeathPer1M" : "3"},
+{"country" : "Canada", "totalConfirmedCases" : "4757", "totalDeath" : "55", "totalRecovered" : "354", "totalConfirmedCasesPer1M" : "126", "totalDeathPer1M" : "1"},
+{"country" : "Egypt", "totalConfirmedCases" : "536", "totalDeath" : "30", "totalRecovered" : "116", "totalConfirmedCasesPer1M" : "5", "totalDeathPer1M" : "0.3"},
+{"country" : "Algeria", "totalConfirmedCases" : "409", "totalDeath" : "26", "totalRecovered" : "29", "totalConfirmedCasesPer1M" : "9", "totalDeathPer1M" : "0.6"},
+{"country" : "Morocco", "totalConfirmedCases" : "358", "totalDeath" : "23", "totalRecovered" : "11", "totalConfirmedCasesPer1M" : "10", "totalDeathPer1M" : "0.6"},
+{"country" : "Tunisia", "totalConfirmedCases" : "227", "totalDeath" : "7", "totalRecovered" : "2", "totalConfirmedCasesPer1M" : "19", "totalDeathPer1M" : "0.6"},
+
+
+  
+];
+
+debugger;
+
+data = data
+.map(d => { return {...d, deathPercent: Math.round(d.totalDeath / d.totalConfirmedCases * 100)};})
+.sort((a, b) => (a.deathPercent <= b.deathPercent) ? 1 : -1);
+
+
+//chart size and margin
+var margin = { top: 10, right: 30, bottom: 50, left: 50 },
+width = window.innerWidth*0.78 - margin.left - margin.right,
+height = window.innerWidth*0.78 - margin.top - margin.bottom;
+
+var mouseover = function(d) {
+tooltip.style("opacity", 1);
+d3.select(this)
+.style("stroke", "green")
+.style("opacity", 1)
+.attr("r", function(d) {
+return d3.select(this).attr("r") * 1.1;
+});
+};
+
+var mousemove = function(d) {
+tooltip
+.html(
+"Country: " +
+  d.country +
+  "<br>" +
+  "Death: " +
+  d.totalDeath +
+  "<br>" +
+  "Confirmed Cases: " +
+  d.totalConfirmedCases + 
+  "<br>" +
+  "Lethality: " +
+  d.deathPercent + "%"
+)
+.style("top", d3.mouse(this)[1], "px")
+.style("left", d3.mouse(this)[0], "px");
+};
+
+var mouseleave = function(d) {
+tooltip.style("opacity", 0);
+d3.select(this)
+//.style("stroke", "none")
+.style("opacity", 0.8)
+.attr("r", function(d) {
+return d3.select(this).attr("r") / 1.1;
+});
+};
+
+
+const chartWrapper = d3.select("#chart-wrapper");
+chartWrapper.selectAll("*").remove();
+
+chartWrapper.style("background-color", "white");
+
+
+var tooltip = chartWrapper.append("div")
+.attr("class", "tooltip")
+.style("opacity", 0);
+
+
+//append the sv object to canvas
+var svg = chartWrapper
+.append("svg")
+.attr("width", width + margin.left + margin.right)
+.attr("height", height + margin.top + margin.bottom)
+.append("g")
+.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+//add X axis
+var x = d3
+.scale.linear()
+.domain([0, 1800])
+.range([0, width]);
+
+//add Y axis
+var y = d3
+.scale.linear()
+.domain([0, 170])
+.range([height, 0]);
+
+
+var xAxis = d3.svg.axis()
+.scale(x)
+.orient("bottom")
+// .tickFormat((d, i) => {return formatDate(new Date(d))}) 
+.tickFormat(d3.format("d"))
+.ticks(10);
+
+var yAxis = d3.svg.axis()
+.scale(y)
+.orient("left")
+.ticks(10)
+.tickFormat(d3.format("d"));
+
+svg.append("g")
+.attr("class", "axis axis--x")
+.attr("transform", "translate(0," + height + ")") 
+.call(xAxis)
+.append("text")
+.attr("transform", "translate(" + width/2 + ",0)")
+.attr("y", "3em")
+.style("text-anchor", "middle")
+.text("Days since first case 02/03/2020");
+
+svg.selectAll("g.tick")
+.selectAll("text").attr("transform", "translate(-10, 10)  rotate(-90)");
+
+svg.append("g")
+.attr("class", "axis axis--y")
+.call(yAxis)
+.append("text")
+.attr("transform", "rotate(-90)")
+.attr("x", "-5em")
+.attr("y", "-2.5em")
+.style("text-anchor", "end")
+.text("Cases/Deaths/Recoveries");
+
+//add a scale for bubble size
+var z = d3
+.scale.linear()
+.domain([1, 12])
+.range([1, 50]);
+var color = d3
+.scale.linear()
+.domain([1, 12])
+.range(['#5F7F17', '#E55812']);
+
+//    .range(['#22c1c3', '#fdbb2d']);
+//add bubbles
+svg
+.append("g")
+.selectAll("dot")
+.data(data)
+.enter()
+.append("circle")
+.attr("country", function(d) {
+  return d.country;
+})
+.attr("cx", function(d) {
+  return x(d.totalConfirmedCasesPer1M);
+})
+.attr("cy", function(d) {
+  return y(d.totalDeathPer1M);
+})
+.attr("r", function(d) {
+  //return 5;  
+  return z(d.deathPercent);
+})
+//.style("fill", "#69b3a2")
+.style("fill", d => color(d.deathPercent))
+
+.style("opacity", "0.7")
+.attr("stroke", "black")
+.on("mouseover", mouseover)
+.on("mousemove", mousemove)
+.on("mouseleave", mouseleave);
+
+}
+
+
+
+
+
+
+
+
+
