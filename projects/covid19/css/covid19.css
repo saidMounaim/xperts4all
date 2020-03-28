@@ -258,9 +258,13 @@ div.tooltip {
  
 
 path.region {
-  fill : #ffffff;
-  stroke: #646464;
-  stroke-width: 1px;
+  fill:#ffffff;
+  stroke:#646462;
+  stroke-width:3.5;
+  stroke-linejoin:round;
+  stroke-miterlimit:4;
+  stroke-opacity:1;
+  stroke-dasharray:none
 }
 
 text#regionName {
