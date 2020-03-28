@@ -240,9 +240,6 @@ div.tooltip {
 
 
 
-
-
-
  .waffle-chart-legend--items {
    display: inline-block;
    margin-left: 10px;
@@ -266,10 +263,24 @@ path.region {
   stroke-width: 1px;
 }
 
+text#regionName {
+  font-size: 306px;
+  fill: #000000;
+}
+text#cases {
+  font-size: 306px;
+  fill: #E6C229;
+}
 
+text#recovered {
+  font-size: 306px;
+  fill: #71B340;
+}
 
-
-
+text#deads {
+  font-size: 306px;
+  fill: #ED254E;
+}
 
 
 
