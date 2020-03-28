@@ -554,7 +554,6 @@ function drawMap() {
 
   chartWrapper.select("svg").select("g").selectAll("path")
   .on("mouseover", function () {
-    debugger;
   tooltip.transition()
     .duration(200)
     .style("opacity", 1);
@@ -606,8 +605,6 @@ let data =
 
   
 ];
-
-debugger;
 
 data = data
 .map(d => { return {...d, deathPercent: Math.round(d.totalDeath / d.totalConfirmedCases * 100)};})
@@ -714,7 +711,7 @@ svg.append("g")
 .attr("transform", "translate(" + width/2 + ",0)")
 .attr("y", "3em")
 .style("text-anchor", "middle")
-.text("Days since first case 02/03/2020");
+.text("number of cases");
 
 svg.selectAll("g.tick")
 .selectAll("text").attr("transform", "translate(-10, 10)  rotate(-90)");
@@ -723,11 +720,11 @@ svg.append("g")
 .attr("class", "axis axis--y")
 .call(yAxis)
 .append("text")
-.attr("transform", "rotate(-90)")
+.attr("transform", "translate(0," + height/2 + ") rotate(-90)")
 .attr("x", "-5em")
 .attr("y", "-2.5em")
 .style("text-anchor", "end")
-.text("Cases/Deaths/Recoveries");
+.text("Number of deaths");
 
 //add a scale for bubble size
 var z = d3
