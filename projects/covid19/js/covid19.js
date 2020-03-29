@@ -12,7 +12,9 @@ var formatDate = d3.time.format("%d/%m");
 var parseDate = d3.time.format("%d/%m/%Y").parse;
 
 var barDataset = [
+
   
+
 {"day": 1,"date": "02/03/2020", "totalNegatifTests" : 28, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :28, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :0},
 {"day": 2,"date": "03/03/2020", "totalNegatifTests" : 32, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :4, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
 {"day": 3,"date": "04/03/2020", "totalNegatifTests" : 34, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :2, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
@@ -40,7 +42,7 @@ var barDataset = [
 {"day": 25,"date": "26/03/2020", "totalNegatifTests" : 931, "totalConfirmedCases" : 275, "totalDeath" : 10, "totalRecovered" : 8, "negatifTests" :191, "confirmedCases" : 50, "death" : 4, "recovered" :1, "plusPercent" :22},
 {"day": 26,"date": "27/03/2020", "totalNegatifTests" : 1423, "totalConfirmedCases" : 345, "totalDeath" : 23, "totalRecovered" : 11, "negatifTests" :492, "confirmedCases" : 70, "death" : 13, "recovered" :3, "plusPercent" :25},
 {"day": 27,"date": "28/03/2020", "totalNegatifTests" : 1574, "totalConfirmedCases" : 402, "totalDeath" : 25, "totalRecovered" : 12, "negatifTests" :151, "confirmedCases" : 57, "death" : 2, "recovered" :1, "plusPercent" :17},
-{"day": 28,"date": "29/03/2020", "totalNegatifTests" : 1624, "totalConfirmedCases" : 437, "totalDeath" : 26, "totalRecovered" : 12, "negatifTests" :50, "confirmedCases" : 35, "death" : 1, "recovered" :0, "plusPercent" :9},
+{"day": 28,"date": "29/03/2020", "totalNegatifTests" : 1665, "totalConfirmedCases" : 463, "totalDeath" : 26, "totalRecovered" : 13, "negatifTests" :91, "confirmedCases" : 61, "death" : 1, "recovered" :1, "plusPercent" :15},
 
 
 
@@ -350,7 +352,7 @@ function drawWaffles() {
       .data(Object.keys(myColors))
       .enter()
       .append("div")
-      .attr('class', 'waffle-chart-legend--items')
+      .attr('class', 'waffle-chart-legend--items');
 
   legendRow.append("div")
       .html("&nbsp")
@@ -493,15 +495,15 @@ function drawWaffle() {
 
 function drawMap() {
   const data = {
-    "Casablanca-Settat":"107",
-    "Fès-Meknès":"63",
-    "Rabat-Salé-Kénitra":"56",
-    "Marrakech-Safi":"57",
-    "Tanger-Tetouan-Al Hoceima":"23",
-    "Oriental":"12",
+    "Casablanca-Settat":"117",
+    "Fès-Meknès":"72",
+    "Rabat-Salé-Kénitra":"5726",
+    "Marrakech-Safi":"70",
+    "Tanger-Tetouan-Al Hoceima":"29",
+    "Oriental":"14",
     "Souss-Massa":"11",
     "Béni Mellal-Khénifra":"10",
-    "Drâa-Tafilalet":"5",
+    "Drâa-Tafilalet":"6",
     "Guelmim-Oued Noun":"1",
   };
 
@@ -517,20 +519,21 @@ function drawMap() {
   chartWrapper.style("background-color", "white");
 
   const width = (window.innerWidth) * 0.75 - 3;
-  let scale = 600 / width;
-  if (scale < 0.4) {
-    scale = 0.4;
+  let scale = width / 15;
+  if (width > 400) {
+    scale = 10;
   }
-  if (scale > 1) {
-    scale = 1;
-  }
+  // if (scale > 1) {
+  //   scale = 1;
+  // }
+  console.log("width", width);
   console.log("scale", scale);
-  //scale(' + scale +', ' + scale + ')
   chartWrapper.html(
   '	<svg ' +
   '	width="' + width + '"	' +
   '	height="' + width + '"	' +
-  '	viewBox="10 0 ' + width*20 + ' ' + width*20 + '" > ' +
+  // '	viewBox="10 0 ' + width*20 + ' ' + width*20 + '" > ' +
+  '	viewBox="10 0 ' + width*scale + ' ' + width*scale + '" > ' +
   '	<g transform="translate(10, 10) " > ' +
   ' <text x="0" y="300"  id="regionName"></text>' + 
   ' <text x="0" y="600" id="cases"></text>' + 
