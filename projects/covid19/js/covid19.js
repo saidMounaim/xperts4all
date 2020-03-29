@@ -647,17 +647,6 @@ let data =
   
 ];
 
-
-
-/*
-<defs>
-    <pattern id="morocco" x="0%" y="0%" height="100%" width="100%" viewBox="0 0 512 512">
-      <image x="0%" y="0%" width="512" height="512" xlink:href="assets/morocco.png"></image>
-    </pattern>
-  </defs>
-  <circle id="sd" class="medium" cx="5%" cy="40%" r="5%" fill="url(#image)" stroke="lightblue" stroke-width="0.5%" />
-*/
-
 data = data
 .map(d => { return {...d, deathPercent: Math.round(d.totalDeath / d.totalConfirmedCases * 100)};})
 .sort((a, b) => (a.deathPercent <= b.deathPercent) ? 1 : -1);
@@ -693,7 +682,7 @@ tooltip
   "Confirmed Cases: " +
   d.totalConfirmedCases + 
   "<br>" +
-  "Lethality: " +
+  "Mortality: " +
   d.deathPercent + "%"
 )
 .style("top", d3.mouse(this)[1], "px")
@@ -769,15 +758,23 @@ var yAxis = d3.svg.axis()
 .ticks(10)
 .tickFormat(d3.format("d"));
 
-svg.append("g")
+var xAxisItem = svg.append("g")
 .attr("class", "axis axis--x")
 .attr("transform", "translate(0," + height + ")") 
-.call(xAxis)
-.append("text")
+.call(xAxis);
+
+xAxisItem.append("text")
 .attr("transform", "translate(" + width*2/3 + ",0)")
 .attr("y", "3em")
 .style("text-anchor", "middle")
 .text("number of cases" + (per1M ? "/1 Million" : ""));
+
+
+xAxisItem.append("text")
+.attr("transform", "translate(" + width*2/3 + ",15)")
+.attr("y", "3em")
+.style("text-anchor", "middle")
+.text("Circle size show mortality");
 
 svg.selectAll("g.tick")
 .selectAll("text").attr("transform", "translate(-10, 10)  rotate(-90)");
@@ -786,11 +783,11 @@ svg.append("g")
 .attr("class", "axis axis--y")
 .call(yAxis)
 .append("text")
-.attr("transform", "translate(0," + 0 + ") rotate(-90)")
+.attr("transform", "translate(0, 0) rotate(-90)")
 .attr("x", "-5em")
 .attr("y", "-2.5em")
 .style("text-anchor", "end")
-.text("Number of deaths" + (per1M ? "/1 Million" : ""));
+.text("Number of deaths" + (per1M ? "/1 Million" : ""))
 
 //add a scale for bubble size
 var z = d3
