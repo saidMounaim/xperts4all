@@ -170,9 +170,35 @@ div.tooltip {
   background: #71B340;
 }
 
-
-
+ 
+ 
 #cumule {
+    float: right;
+    font-family: segoe ui;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    color: #fff;
+    display: inline;
+    margin-right: -30px;
+  }
+   
+  .cumule_nok {
+    border: 3px solid rgb(180, 140, 150);
+    background: rgb(150,110,120);
+  }
+   
+  .cumule_ok {
+    border: 3px solid rgb(140, 180, 150);
+    background: rgb(110,150,120);
+  }
+
+
+.mapButton_nok {
   float: right;
   font-family: segoe ui;
   font-size: 10px;
@@ -185,14 +211,25 @@ div.tooltip {
   color: #fff;
   display: inline;
   margin-right: -30px;
-}
 
-.cumule_nok {
   border: 3px solid rgb(180, 140, 150);
   background: rgb(150,110,120);
 }
 
-.cumule_ok {
+.mapButton_ok {
+  float: right;
+  font-family: segoe ui;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  color: #fff;
+  display: inline;
+  margin-right: -30px;
+
   border: 3px solid rgb(140, 180, 150);
   background: rgb(110,150,120);
 }
