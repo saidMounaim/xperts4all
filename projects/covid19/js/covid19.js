@@ -636,7 +636,7 @@ let data =
 {"country" : "Germany", "totalConfirmedCases" : "5334", "totalDeath" : "399", "totalRecovered" : "6658", "totalConfirmedCasesPer1M" : "637", "totalDeathPer1M" : "5"},
 {"country" : "France", "totalConfirmedCases" : "32964", "totalDeath" : "1995", "totalRecovered" : "57", "totalConfirmedCasesPer1M" : "505", "totalDeathPer1M" : "31"},
 {"country" : "UK", "totalConfirmedCases" : "17089", "totalDeath" : "1019", "totalRecovered" : "135", "totalConfirmedCasesPer1M" : "252", "totalDeathPer1M" : "15"},
-{"country" : "S. Korea", "totalConfirmedCases" : "9478", "totalDeath" : "144", "totalRecovered" : "4811", "totalConfirmedCasesPer1M" : "185", "totalDeathPer1M" : "3"},
+{"country" : "S.Korea", "totalConfirmedCases" : "9478", "totalDeath" : "144", "totalRecovered" : "4811", "totalConfirmedCasesPer1M" : "185", "totalDeathPer1M" : "3"},
 {"country" : "Canada", "totalConfirmedCases" : "4757", "totalDeath" : "55", "totalRecovered" : "354", "totalConfirmedCasesPer1M" : "126", "totalDeathPer1M" : "1"},
 {"country" : "Egypt", "totalConfirmedCases" : "536", "totalDeath" : "30", "totalRecovered" : "116", "totalConfirmedCasesPer1M" : "5", "totalDeathPer1M" : "0.3"},
 {"country" : "Algeria", "totalConfirmedCases" : "409", "totalDeath" : "26", "totalRecovered" : "29", "totalConfirmedCasesPer1M" : "9", "totalDeathPer1M" : "0.6"},
@@ -651,12 +651,10 @@ let data =
 
 /*
 <defs>
-    <pattern id="image" x="0%" y="0%" height="100%" width="100%"
-             viewBox="0 0 512 512">
+    <pattern id="morocco" x="0%" y="0%" height="100%" width="100%" viewBox="0 0 512 512">
       <image x="0%" y="0%" width="512" height="512" xlink:href="assets/morocco.png"></image>
     </pattern>
   </defs>
-    
   <circle id="sd" class="medium" cx="5%" cy="40%" r="5%" fill="url(#image)" stroke="lightblue" stroke-width="0.5%" />
 */
 
@@ -722,6 +720,28 @@ var svg = chartWrapper
 
 
 
+/* <defs>
+    <pattern id="morocco" x="0%" y="0%" height="100%" width="100%" viewBox="0 0 512 512">
+      <image x="0%" y="0%" width="512" height="512" xlink:href="assets/morocco.png"></image>
+    </pattern>
+  </defs> */
+
+svg.selectAll("defs").data(data).enter()
+.append("defs")
+.append("pattern")
+  .attr("id", d => d.country)
+  .attr("x", "0%")
+  .attr("y", "0%")
+  .attr("height", "100%")
+  .attr("width", "100%")
+  .attr("viewBox", "0 0 512 512")
+.append("image")
+  .attr("x", "0%")
+  .attr("y", "0%")
+  .attr("height", "512")
+  .attr("width", "512")
+  .attr("xlink:href", d => "assets/" + d.country + ".png")
+  ;
 
 //add X axis
 var x = d3
@@ -805,7 +825,7 @@ svg
 })
 //.style("fill", "#69b3a2")
 .style("fill", d => color(d.deathPercent))
-
+.style("fill", d => "url(#" + d.country + ")")
 .style("opacity", "0.7")
 .attr("stroke", "black")
 .on("mouseover", mouseover)
