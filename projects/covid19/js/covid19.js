@@ -895,16 +895,3 @@ function drawBubblesGraph_(per1M, circleSize) {
 
 
 
-
-window.addEventListener("scroll", stickMenu);
-
-function stickMenu(){
-  var scrollY = window.pageYOffset;
- 
-  if(scrollY>0){
-      document.getElementById("sticky").classList.add('shrink');
-  }
-  if(scrollY<=0 && document.getElementById("sticky").classList.contains('shrink')){
-    document.getElementById("sticky").classList.toggle('shrink');
-  }
-} 
