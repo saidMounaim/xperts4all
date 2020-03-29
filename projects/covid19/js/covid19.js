@@ -12,33 +12,36 @@ var formatDate = d3.time.format("%d/%m");
 var parseDate = d3.time.format("%d/%m/%Y").parse;
 
 var barDataset = [
-  {"day": 1,"date": "02/03/2020", "totalNegatifTests" : 28, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :28, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :0},
-  {"day": 2,"date": "03/03/2020", "totalNegatifTests" : 32, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :4, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
-  {"day": 3,"date": "04/03/2020", "totalNegatifTests" : 34, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :2, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
-  {"day": 4,"date": "05/03/2020", "totalNegatifTests" : 48, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :14, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :100},
-  {"day": 5,"date": "06/03/2020", "totalNegatifTests" : 50, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :2, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
-  {"day": 6,"date": "07/03/2020", "totalNegatifTests" : 55, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :5, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
-  {"day": 7,"date": "08/03/2020", "totalNegatifTests" : 60, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :5, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
-  {"day": 8,"date": "09/03/2020", "totalNegatifTests" : 60, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :0, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
-  {"day": 9,"date": "10/03/2020", "totalNegatifTests" : 63, "totalConfirmedCases" : 3, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :3, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :50},
-  {"day": 10,"date": "11/03/2020", "totalNegatifTests" : 78, "totalConfirmedCases" : 6, "totalDeath" : 1, "totalRecovered" : 0, "negatifTests" :15, "confirmedCases" : 3, "death" : 1, "recovered" :0, "plusPercent" :100},
-  {"day": 11,"date": "12/03/2020", "totalNegatifTests" : 91, "totalConfirmedCases" : 6, "totalDeath" : 1, "totalRecovered" : 0, "negatifTests" :13, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
-  {"day": 12,"date": "13/03/2020", "totalNegatifTests" : 106, "totalConfirmedCases" : 8, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :15, "confirmedCases" : 2, "death" : 0, "recovered" :1, "plusPercent" :33},
-  {"day": 13,"date": "14/03/2020", "totalNegatifTests" : 112, "totalConfirmedCases" : 18, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :6, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :125},
-  {"day": 14,"date": "15/03/2020", "totalNegatifTests" : 122, "totalConfirmedCases" : 28, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :10, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :56},
-  {"day": 15,"date": "16/03/2020", "totalNegatifTests" : 152, "totalConfirmedCases" : 37, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :30, "confirmedCases" : 9, "death" : 0, "recovered" :0, "plusPercent" :32},
-  {"day": 16,"date": "17/03/2020", "totalNegatifTests" : 183, "totalConfirmedCases" : 44, "totalDeath" : 2, "totalRecovered" : 1, "negatifTests" :31, "confirmedCases" : 7, "death" : 1, "recovered" :0, "plusPercent" :19},
-  {"day": 17,"date": "18/03/2020", "totalNegatifTests" : 263, "totalConfirmedCases" : 54, "totalDeath" : 2, "totalRecovered" : 1, "negatifTests" :80, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :23},
-  {"day": 18,"date": "19/03/2020", "totalNegatifTests" : 307, "totalConfirmedCases" : 63, "totalDeath" : 2, "totalRecovered" : 2, "negatifTests" :44, "confirmedCases" : 9, "death" : 0, "recovered" :1, "plusPercent" :17},
-  {"day": 19,"date": "20/03/2020", "totalNegatifTests" : 385, "totalConfirmedCases" : 86, "totalDeath" : 3, "totalRecovered" : 2, "negatifTests" :78, "confirmedCases" : 23, "death" : 1, "recovered" :0, "plusPercent" :37},
-  {"day": 20,"date": "21/03/2020", "totalNegatifTests" : 441, "totalConfirmedCases" : 96, "totalDeath" : 3, "totalRecovered" : 3, "negatifTests" :56, "confirmedCases" : 10, "death" : 0, "recovered" :1, "plusPercent" :12},
-  {"day": 21,"date": "22/03/2020", "totalNegatifTests" : 512, "totalConfirmedCases" : 115, "totalDeath" : 4, "totalRecovered" : 3, "negatifTests" :71, "confirmedCases" : 19, "death" : 1, "recovered" :0, "plusPercent" :20},
-  {"day": 22,"date": "23/03/2020", "totalNegatifTests" : 643, "totalConfirmedCases" : 143, "totalDeath" : 4, "totalRecovered" : 5, "negatifTests" :131, "confirmedCases" : 28, "death" : 0, "recovered" :2, "plusPercent" :24},
-  {"day": 23,"date": "24/03/2020", "totalNegatifTests" : 685, "totalConfirmedCases" : 170, "totalDeath" : 5, "totalRecovered" : 6, "negatifTests" :42, "confirmedCases" : 27, "death" : 1, "recovered" :1, "plusPercent" :19},
-  {"day": 24,"date": "25/03/2020", "totalNegatifTests" : 740, "totalConfirmedCases" : 225, "totalDeath" : 6, "totalRecovered" : 7, "negatifTests" :55, "confirmedCases" : 55, "death" : 1, "recovered" :1, "plusPercent" :32},
-  {"day": 25,"date": "26/03/2020", "totalNegatifTests" : 931, "totalConfirmedCases" : 275, "totalDeath" : 10, "totalRecovered" : 8, "negatifTests" :191, "confirmedCases" : 50, "death" : 4, "recovered" :1, "plusPercent" :22},
-  {"day": 26,"date": "27/03/2020", "totalNegatifTests" : 1423, "totalConfirmedCases" : 345, "totalDeath" : 23, "totalRecovered" : 11, "negatifTests" :492, "confirmedCases" : 70, "death" : 13, "recovered" :3, "plusPercent" :25},
   
+{"day": 1,"date": "02/03/2020", "totalNegatifTests" : 28, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :28, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 2,"date": "03/03/2020", "totalNegatifTests" : 32, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :4, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 3,"date": "04/03/2020", "totalNegatifTests" : 34, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :2, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 4,"date": "05/03/2020", "totalNegatifTests" : 48, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :14, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :100},
+{"day": 5,"date": "06/03/2020", "totalNegatifTests" : 50, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :2, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 6,"date": "07/03/2020", "totalNegatifTests" : 55, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :5, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 7,"date": "08/03/2020", "totalNegatifTests" : 60, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :5, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 8,"date": "09/03/2020", "totalNegatifTests" : 60, "totalConfirmedCases" : 2, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :0, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 9,"date": "10/03/2020", "totalNegatifTests" : 63, "totalConfirmedCases" : 3, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :3, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :50},
+{"day": 10,"date": "11/03/2020", "totalNegatifTests" : 78, "totalConfirmedCases" : 6, "totalDeath" : 1, "totalRecovered" : 0, "negatifTests" :15, "confirmedCases" : 3, "death" : 1, "recovered" :0, "plusPercent" :100},
+{"day": 11,"date": "12/03/2020", "totalNegatifTests" : 91, "totalConfirmedCases" : 6, "totalDeath" : 1, "totalRecovered" : 0, "negatifTests" :13, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
+{"day": 12,"date": "13/03/2020", "totalNegatifTests" : 106, "totalConfirmedCases" : 8, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :15, "confirmedCases" : 2, "death" : 0, "recovered" :1, "plusPercent" :33},
+{"day": 13,"date": "14/03/2020", "totalNegatifTests" : 112, "totalConfirmedCases" : 18, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :6, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :125},
+{"day": 14,"date": "15/03/2020", "totalNegatifTests" : 122, "totalConfirmedCases" : 28, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :10, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :56},
+{"day": 15,"date": "16/03/2020", "totalNegatifTests" : 152, "totalConfirmedCases" : 37, "totalDeath" : 1, "totalRecovered" : 1, "negatifTests" :30, "confirmedCases" : 9, "death" : 0, "recovered" :0, "plusPercent" :32},
+{"day": 16,"date": "17/03/2020", "totalNegatifTests" : 183, "totalConfirmedCases" : 44, "totalDeath" : 2, "totalRecovered" : 1, "negatifTests" :31, "confirmedCases" : 7, "death" : 1, "recovered" :0, "plusPercent" :19},
+{"day": 17,"date": "18/03/2020", "totalNegatifTests" : 263, "totalConfirmedCases" : 54, "totalDeath" : 2, "totalRecovered" : 1, "negatifTests" :80, "confirmedCases" : 10, "death" : 0, "recovered" :0, "plusPercent" :23},
+{"day": 18,"date": "19/03/2020", "totalNegatifTests" : 307, "totalConfirmedCases" : 63, "totalDeath" : 2, "totalRecovered" : 2, "negatifTests" :44, "confirmedCases" : 9, "death" : 0, "recovered" :1, "plusPercent" :17},
+{"day": 19,"date": "20/03/2020", "totalNegatifTests" : 385, "totalConfirmedCases" : 86, "totalDeath" : 3, "totalRecovered" : 2, "negatifTests" :78, "confirmedCases" : 23, "death" : 1, "recovered" :0, "plusPercent" :37},
+{"day": 20,"date": "21/03/2020", "totalNegatifTests" : 441, "totalConfirmedCases" : 96, "totalDeath" : 3, "totalRecovered" : 3, "negatifTests" :56, "confirmedCases" : 10, "death" : 0, "recovered" :1, "plusPercent" :12},
+{"day": 21,"date": "22/03/2020", "totalNegatifTests" : 512, "totalConfirmedCases" : 115, "totalDeath" : 4, "totalRecovered" : 3, "negatifTests" :71, "confirmedCases" : 19, "death" : 1, "recovered" :0, "plusPercent" :20},
+{"day": 22,"date": "23/03/2020", "totalNegatifTests" : 643, "totalConfirmedCases" : 143, "totalDeath" : 4, "totalRecovered" : 5, "negatifTests" :131, "confirmedCases" : 28, "death" : 0, "recovered" :2, "plusPercent" :24},
+{"day": 23,"date": "24/03/2020", "totalNegatifTests" : 685, "totalConfirmedCases" : 170, "totalDeath" : 5, "totalRecovered" : 6, "negatifTests" :42, "confirmedCases" : 27, "death" : 1, "recovered" :1, "plusPercent" :19},
+{"day": 24,"date": "25/03/2020", "totalNegatifTests" : 740, "totalConfirmedCases" : 225, "totalDeath" : 6, "totalRecovered" : 7, "negatifTests" :55, "confirmedCases" : 55, "death" : 1, "recovered" :1, "plusPercent" :32},
+{"day": 25,"date": "26/03/2020", "totalNegatifTests" : 931, "totalConfirmedCases" : 275, "totalDeath" : 10, "totalRecovered" : 8, "negatifTests" :191, "confirmedCases" : 50, "death" : 4, "recovered" :1, "plusPercent" :22},
+{"day": 26,"date": "27/03/2020", "totalNegatifTests" : 1423, "totalConfirmedCases" : 345, "totalDeath" : 23, "totalRecovered" : 11, "negatifTests" :492, "confirmedCases" : 70, "death" : 13, "recovered" :3, "plusPercent" :25},
+{"day": 27,"date": "28/03/2020", "totalNegatifTests" : 1574, "totalConfirmedCases" : 402, "totalDeath" : 25, "totalRecovered" : 12, "negatifTests" :151, "confirmedCases" : 57, "death" : 2, "recovered" :1, "plusPercent" :17},
+{"day": 28,"date": "29/03/2020", "totalNegatifTests" : 1624, "totalConfirmedCases" : 437, "totalDeath" : 26, "totalRecovered" : 12, "negatifTests" :50, "confirmedCases" : 35, "death" : 1, "recovered" :0, "plusPercent" :9},
+
 
 
 ];
@@ -580,10 +583,48 @@ drawBarGraph(barDataset, false);
 
 
 
-
 function drawBubblesGraph() {
+  drawBubblesGraph_(true);
+}
+
+function updateBubbles() {
+  const cumuleItem = d3.select("#cumule");
+  const per1M = cumuleItem.attr("class") === "cumule_nok";
+  if (per1M) {
+    cumuleItem.attr("class", "cumule_ok");
+  } else {
+    cumuleItem.attr("class", "cumule_nok");
+  }
+  drawBubblesGraph_(per1M);
+}
+
+function drawBubblesGraph_(per1M) {
   
-  
+
+const chartWrapper = d3.select("#chart-wrapper");
+chartWrapper.selectAll("*").remove();
+
+chartWrapper.style("background-color", "white");
+
+
+var tooltip = chartWrapper.append("div")
+.attr("class", "tooltip")
+.style("opacity", 0);
+
+
+
+const cumuleItem = chartWrapper.append("div")
+        .attr("id", "cumule")
+        .style("margin-right", "130px")
+        .html("Per millions")
+        .on("click", updateBubbles);
+
+if (per1M) {
+  cumuleItem.attr("class", "cumule_ok");
+} else {
+  cumuleItem.attr("class", "cumule_nok");
+}
+
   
 let data = 
 [
@@ -606,15 +647,31 @@ let data =
   
 ];
 
+
+
+/*
+<defs>
+    <pattern id="image" x="0%" y="0%" height="100%" width="100%"
+             viewBox="0 0 512 512">
+      <image x="0%" y="0%" width="512" height="512" xlink:href="assets/morocco.png"></image>
+    </pattern>
+  </defs>
+    
+  <circle id="sd" class="medium" cx="5%" cy="40%" r="5%" fill="url(#image)" stroke="lightblue" stroke-width="0.5%" />
+*/
+
 data = data
 .map(d => { return {...d, deathPercent: Math.round(d.totalDeath / d.totalConfirmedCases * 100)};})
 .sort((a, b) => (a.deathPercent <= b.deathPercent) ? 1 : -1);
 
+const maxCases = Math.max(...data.map(d => (per1M ? d.totalConfirmedCasesPer1M : d.totalConfirmedCases)));
+const maxDeaths = Math.max(...data.map(d => (per1M ? d.totalDeathPer1M : d.totalDeath)));
+const maxR = 50;
 
 //chart size and margin
 var margin = { top: 10, right: 30, bottom: 50, left: 50 },
-width = window.innerWidth*0.78 - margin.left - margin.right,
-height = window.innerWidth*0.78 - margin.top - margin.bottom;
+width = window.innerWidth*0.78 - margin.left - margin.right - maxR,
+height = window.innerWidth*0.78 - margin.top - margin.bottom - maxR;
 
 var mouseover = function(d) {
 tooltip.style("opacity", 1);
@@ -655,39 +712,28 @@ return d3.select(this).attr("r") / 1.1;
 });
 };
 
-
-const chartWrapper = d3.select("#chart-wrapper");
-chartWrapper.selectAll("*").remove();
-
-chartWrapper.style("background-color", "white");
-
-
-var tooltip = chartWrapper.append("div")
-.attr("class", "tooltip")
-.style("opacity", 0);
-
-
 //append the sv object to canvas
 var svg = chartWrapper
 .append("svg")
-.attr("width", width + margin.left + margin.right)
-.attr("height", height + margin.top + margin.bottom)
+.attr("width", width + margin.left + margin.right + maxR)
+.attr("height", height + margin.top + margin.bottom + maxR)
 .append("g")
 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 
 
 
 //add X axis
 var x = d3
 .scale.linear()
-.domain([0, 1800])
-.range([0, width]);
+.domain([0, maxCases])
+.range([0+maxR, width+maxR]);
 
 //add Y axis
 var y = d3
 .scale.linear()
-.domain([0, 170])
-.range([height, 0]);
+.domain([0, maxDeaths])
+.range([height-maxR, 0+maxR]);
 
 
 var xAxis = d3.svg.axis()
@@ -711,7 +757,7 @@ svg.append("g")
 .attr("transform", "translate(" + width/2 + ",0)")
 .attr("y", "3em")
 .style("text-anchor", "middle")
-.text("number of cases");
+.text("number of cases" + (per1M ? "/1 Million" : ""));
 
 svg.selectAll("g.tick")
 .selectAll("text").attr("transform", "translate(-10, 10)  rotate(-90)");
@@ -724,13 +770,13 @@ svg.append("g")
 .attr("x", "-5em")
 .attr("y", "-2.5em")
 .style("text-anchor", "end")
-.text("Number of deaths");
+.text("Number of deaths" + (per1M ? "/1 Million" : ""));
 
 //add a scale for bubble size
 var z = d3
 .scale.linear()
 .domain([1, 12])
-.range([1, 50]);
+.range([1, maxR]);
 var color = d3
 .scale.linear()
 .domain([1, 12])
@@ -748,10 +794,10 @@ svg
   return d.country;
 })
 .attr("cx", function(d) {
-  return x(d.totalConfirmedCasesPer1M);
+  return x(per1M ? d.totalConfirmedCasesPer1M : d.totalConfirmedCases);
 })
 .attr("cy", function(d) {
-  return y(d.totalDeathPer1M);
+  return y(per1M ? d.totalDeathPer1M : d.totalDeath);
 })
 .attr("r", function(d) {
   //return 5;  
