@@ -615,7 +615,7 @@ var tooltip = chartWrapper.append("div")
 
 const cumuleItem = chartWrapper.append("div")
         .attr("id", "cumule")
-        .style("margin-right", "130px")
+        .style("margin-right", "10px")
         .html("Per millions")
         .on("click", updateBubbles);
 
