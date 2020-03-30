@@ -13,8 +13,6 @@ var parseDate = d3.time.format("%d/%m/%Y").parse;
 
 var barDataset = [
 
-  
-
 {"day": 1,"date": "02/03/2020", "totalNegatifTests" : 28, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :28, "confirmedCases" : 1, "death" : 0, "recovered" :0, "plusPercent" :0},
 {"day": 2,"date": "03/03/2020", "totalNegatifTests" : 32, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :4, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
 {"day": 3,"date": "04/03/2020", "totalNegatifTests" : 34, "totalConfirmedCases" : 1, "totalDeath" : 0, "totalRecovered" : 0, "negatifTests" :2, "confirmedCases" : 0, "death" : 0, "recovered" :0, "plusPercent" :0},
@@ -43,7 +41,8 @@ var barDataset = [
 {"day": 26,"date": "27/03/2020", "totalNegatifTests" : 1423, "totalConfirmedCases" : 345, "totalDeath" : 23, "totalRecovered" : 11, "negatifTests" :492, "confirmedCases" : 70, "death" : 13, "recovered" :3, "plusPercent" :25},
 {"day": 27,"date": "28/03/2020", "totalNegatifTests" : 1574, "totalConfirmedCases" : 402, "totalDeath" : 25, "totalRecovered" : 12, "negatifTests" :151, "confirmedCases" : 57, "death" : 2, "recovered" :1, "plusPercent" :17},
 {"day": 28,"date": "29/03/2020", "totalNegatifTests" : 1665, "totalConfirmedCases" : 463, "totalDeath" : 26, "totalRecovered" : 13, "negatifTests" :91, "confirmedCases" : 61, "death" : 1, "recovered" :1, "plusPercent" :15},
-
+{"day": 29,"date": "30/03/2020", "totalNegatifTests" : 2107, "totalConfirmedCases" : 534, "totalDeath" : 33, "totalRecovered" : 14, "negatifTests" :442, "confirmedCases" : 71, "death" : 7, "recovered" :1, "plusPercent" :15},
+  
 
 
 ];
@@ -495,15 +494,15 @@ function drawWaffle() {
 
 function drawMap() {
   const data = {
-    "Casablanca-Settat":"117",
-    "Fès-Meknès":"72",
-    "Rabat-Salé-Kénitra":"72",
-    "Marrakech-Safi":"70",
-    "Tanger-Tetouan-Al Hoceima":"29",
-    "Oriental":"14",
-    "Souss-Massa":"11",
-    "Béni Mellal-Khénifra":"10",
-    "Drâa-Tafilalet":"6",
+    "Casablanca-Settat":"159",
+    "Fès-Meknès":"91",
+    "Rabat-Salé-Kénitra":"88",
+    "Marrakech-Safi":"93",
+    "Tanger-Tetouan-Al Hoceima":"38",
+    "Oriental":"22",
+    "Souss-Massa":"17",
+    "Béni Mellal-Khénifra":"17",
+    "Drâa-Tafilalet":"8",
     "Guelmim-Oued Noun":"1",
     "Laayoun-saqialhamra":"0",
     "Dakhla-ouadidahab":"0",
@@ -667,20 +666,18 @@ function drawBubblesGraph_(per1M, circleSize) {
   let data = 
   [
   
-    {"country" : "USA", "totalConfirmedCases" : "104906", "totalDeath" : "1715", "totalRecovered" : "2537", "totalConfirmedCasesPer1M" : "317", "totalDeathPer1M" : "5"},
-    {"country" : "Italy", "totalConfirmedCases" : "86498", "totalDeath" : "9134", "totalRecovered" : "1095", "totalConfirmedCasesPer1M" : "1431", "totalDeathPer1M" : "151"},
-    {"country" : "China", "totalConfirmedCases" : "81394", "totalDeath" : "3295", "totalRecovered" : "74971", "totalConfirmedCasesPer1M" : "57", "totalDeathPer1M" : "2"},
-    {"country" : "Spain", "totalConfirmedCases" : "72248", "totalDeath" : "5690", "totalRecovered" : "12285", "totalConfirmedCasesPer1M" : "1545", "totalDeathPer1M" : "122"},
-    {"country" : "Germany", "totalConfirmedCases" : "5334", "totalDeath" : "399", "totalRecovered" : "6658", "totalConfirmedCasesPer1M" : "637", "totalDeathPer1M" : "5"},
-    {"country" : "France", "totalConfirmedCases" : "32964", "totalDeath" : "1995", "totalRecovered" : "57", "totalConfirmedCasesPer1M" : "505", "totalDeathPer1M" : "31"},
-    {"country" : "UK", "totalConfirmedCases" : "17089", "totalDeath" : "1019", "totalRecovered" : "135", "totalConfirmedCasesPer1M" : "252", "totalDeathPer1M" : "15"},
-    {"country" : "S.Korea", "totalConfirmedCases" : "9478", "totalDeath" : "144", "totalRecovered" : "4811", "totalConfirmedCasesPer1M" : "185", "totalDeathPer1M" : "3"},
-    {"country" : "Canada", "totalConfirmedCases" : "4757", "totalDeath" : "55", "totalRecovered" : "354", "totalConfirmedCasesPer1M" : "126", "totalDeathPer1M" : "1"},
-    {"country" : "Egypt", "totalConfirmedCases" : "536", "totalDeath" : "30", "totalRecovered" : "116", "totalConfirmedCasesPer1M" : "5", "totalDeathPer1M" : "0.3"},
-    {"country" : "Algeria", "totalConfirmedCases" : "409", "totalDeath" : "26", "totalRecovered" : "29", "totalConfirmedCasesPer1M" : "9", "totalDeathPer1M" : "0.6"},
-    {"country" : "Morocco", "totalConfirmedCases" : "358", "totalDeath" : "23", "totalRecovered" : "11", "totalConfirmedCasesPer1M" : "10", "totalDeathPer1M" : "0.6"},
-    {"country" : "Tunisia", "totalConfirmedCases" : "227", "totalDeath" : "7", "totalRecovered" : "2", "totalConfirmedCasesPer1M" : "19", "totalDeathPer1M" : "0.6"},
-
+    {"country" : "USA", "totalConfirmedCases" : "158571", "totalDeath" : "2938", "totalRecovered" : "5211", "totalConfirmedCasesPer1M" : "479", "totalDeathPer1M" : "9"},
+    {"country" : "Italy", "totalConfirmedCases" : "101739", "totalDeath" : "11591", "totalRecovered" : "14620", "totalConfirmedCasesPer1M" : "1683", "totalDeathPer1M" : "192"},
+    {"country" : "Spain", "totalConfirmedCases" : "85195", "totalDeath" : "7340", "totalRecovered" : "16780", "totalConfirmedCasesPer1M" : "1822", "totalDeathPer1M" : "157"},
+    {"country" : "China", "totalConfirmedCases" : "81470", "totalDeath" : "3304", "totalRecovered" : "75700", "totalConfirmedCasesPer1M" : "57", "totalDeathPer1M" : "2"},
+    {"country" : "Germany", "totalConfirmedCases" : "63929", "totalDeath" : "560", "totalRecovered" : "9211", "totalConfirmedCasesPer1M" : "763", "totalDeathPer1M" : "7"},
+    {"country" : "France", "totalConfirmedCases" : "44550", "totalDeath" : "3024", "totalRecovered" : "7927", "totalConfirmedCasesPer1M" : "683", "totalDeathPer1M" : "46"},
+    {"country" : "UK", "totalConfirmedCases" : "22141", "totalDeath" : "1408", "totalRecovered" : "135", "totalConfirmedCasesPer1M" : "326", "totalDeathPer1M" : "21"},
+    {"country" : "S.Korea", "totalConfirmedCases" : "9661", "totalDeath" : "158", "totalRecovered" : "5228", "totalConfirmedCasesPer1M" : "188", "totalDeathPer1M" : "3"},
+    {"country" : "Egypt", "totalConfirmedCases" : "656", "totalDeath" : "41", "totalRecovered" : "150", "totalConfirmedCasesPer1M" : "6", "totalDeathPer1M" : "0.4"},
+    {"country" : "Algeria", "totalConfirmedCases" : "584", "totalDeath" : "35", "totalRecovered" : "37", "totalConfirmedCasesPer1M" : "13", "totalDeathPer1M" : "0.8"},
+    {"country" : "Morocco", "totalConfirmedCases" : "534", "totalDeath" : "33", "totalRecovered" : "14", "totalConfirmedCasesPer1M" : "14", "totalDeathPer1M" : "0.9"},
+    
   ];
 
   data = data
