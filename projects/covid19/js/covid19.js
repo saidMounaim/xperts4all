@@ -722,13 +722,13 @@ function drawBubblesGraph_(per1M, circleSize) {
   var x = d3
   .scale.linear()
   .domain([0, maxCases])
-  .range([0+maxR, width+maxR]);
+  .range([0+(per1M ? maxR : 10), width+maxR]);
 
   //add Y axis
   var y = d3
   .scale.linear()
   .domain([0, maxDeaths])
-  .range([height-maxR, 0+maxR]);
+  .range([height-(per1M ? maxR : 10), 0+maxR]);
 
 
   var xAxis = d3.svg.axis()
