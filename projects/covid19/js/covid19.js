@@ -75,53 +75,39 @@ function update() {
   drawBarGraph(barDataset, cumule);
 }
 
-function drawBarGraph(data, cumule) {
 
-  var status = cumule ? 
-        ["totalConfirmedCases", "totalDeath", "totalRecovered"] : 
+function drawBarGraph(data, cumule) {
+  
+  var status = cumule ? ["totalConfirmedCases", "totalDeath", "totalRecovered"] : 
         ["confirmedCases", "death", "recovered"];
   
   const label = {
-    "totalConfirmedCases" : "Confirmed cases", "confirmedCases" : "Confirmed cases", 
-    "totalDeath" : "Death", "death" : "Death", 
-    "totalRecovered" : "Recovered", "recovered" : "Rrecovered", 
-  } 
+      "totalConfirmedCases" : "Confirmed cases", "confirmedCases" : "Confirmed cases", 
+      "totalDeath" : "Death", "death" : "Death", 
+      "totalRecovered" : "Recovered", "recovered" : "Rrecovered", 
+    } 
 
-  
+  var min = Math.min(...barDataset.map(d => d.day));
+  var max = Math.max(...barDataset.map(d => d.day));
 
-let initSize = 30;
-// if (window.innerWidth < 600) {
-//   initSize = 10;
-// }
-
-var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
-    width  = window.innerWidth*0.78 - margin.left - margin.right,
-    height = barDataset.length * 15 - margin.top - margin.bottom;
+var margin = {top: 30, right: 30, bottom: 40, left: 60},
+    width  = window.innerWidth*0.7 - margin.left - margin.right,
+    height = (max - min) * 20;
 
   var z = d3.scale.ordinal()
   .range(["#CCDBDC", "#ED254E", "#71B340"]);
-
-  var n = Math.max(...barDataset.map(d => d.day));
-
+  
   var x = d3.scale.linear()
-  //.domain([parseDate("02/03/2020"), parseDate("23/03/2020")])
-  .domain([1, n])
-  .rangeRound([0, width], .1);
+  .rangeRound([0, width]);
 
   var y = d3.scale.linear()
-  .rangeRound([height, 0]);
-
-  var xAxis = d3.svg.axis()
-  .scale(x)
-  .orient("bottom")
-  // .tickFormat((d, i) => {return formatDate(new Date(d))}) 
-  .tickFormat(d3.format("d"))
-  .ticks(30);
+  .domain([min, max])
+  .rangeRound([0, height]);
 
   var yAxis = d3.svg.axis()
   .scale(y)
   .orient("left")
-  .ticks(5)
+  // .ticks(5)
   .tickFormat(d3.format("d"));
 
 
@@ -145,8 +131,8 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
   }
 
   var svg = chartWrapper
-  .append("svg")
-  .attr("width", "100%")
+  .append("svg") 
+  .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
@@ -155,15 +141,28 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
   var layers = d3.layout.stack()
   (status.map(function (c) {
     return data.map(function (d) {
-      // return {x: parseDate(d.date), y: d[c], type: label[c]};
       return {x: d.day, y: d[c], plusPercent: d.plusPercent, type: label[c], date: d.date};
     });
   }));
+  
+  
+
+layers = layers.map(function (group) {
+    return group.map(function (d) {
+        // Invert the x and y values, and y0 becomes x0
+        return {
+          ...d,
+            x: d.y,
+            y: d.x,
+            x0: d.y0
+        };
+    });
+});
 
 
-  y.domain([
+  x.domain([
     0, d3.max(layers[layers.length - 1], function (d) {
-      return d.y0 + d.y;
+      return d.y0 + d.x;
     })
   ]);
 
@@ -171,7 +170,9 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
   // gridlines in y axis function
   function make_y_gridlines() {
     return d3.svg.axis().scale(y)
-      .orient("left").ticks(5);
+      .orient("left")
+      //.ticks(5)
+    ;
   }
 
   // add the Y gridlines
@@ -183,47 +184,19 @@ var margin = {top: 30, right: initSize, bottom: 40, left: initSize},
          );
 
   svg.append("g")
-    .attr("class", "axis axis--x")
-    .attr("transform", "translate(0," + height + ")") 
-    .call(xAxis)
-    .append("text")
-    .attr("transform", "translate(" + width/2 + ",0)")
-    .attr("y", "3em")
-    .style("text-anchor", "middle")
-    .text("Days since first case 02/03/2020");
-
-   svg.selectAll("g.tick")
-   .selectAll("text").attr("transform", "translate(-10, 10)  rotate(-90)");
-
-  svg.append("g")
     .attr("class", "axis axis--y")
     .call(yAxis)
     .append("text")
     .attr("transform", "rotate(-90)")
-    .attr("x", "-5em")
+    .attr("x", "-20em")
     .attr("y", "-2.5em")
-    .style("text-anchor", "end")
-    .text("Cases/Deaths/Recoveries");
-
-    
+    .style("text-anchor", "end") 
+    .text("Days since first case 02/03/2020");
+  
+  
   var tooltip = chartWrapper.append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
-
-function sumAll(d) {
-  return status.map(i => d[i]).reduce((a,b) => a + b, 0);
-}
-
-  svg.selectAll("g.text")
-    .data(data).enter()
-    .append("g")
-    .attr("class", "text")
-    .attr("transform", d => "translate(" + (8 + x(d.day)) + "," + y(sumAll(d)) + ") rotate(-90)")
-    .append("text")
-    .text(function (d) {
-      return '+' + d.plusPercent + '%';
-    })
-
 
 
   var layer = svg.selectAll(".layer")
@@ -240,11 +213,13 @@ function sumAll(d) {
     return d;
   })
     .enter().append("rect")
+    
     .on("mouseover", function (d) {
     tooltip.transition()
       .duration(200)
       .style("opacity", 1);
-    tooltip.html("<span>" + d.date + ": " + d.y + " " + d.type + "</span>")
+      debugger;
+    tooltip.html("<span>" + d.date + ": " + d.x + " " + d.type + "</span>")
       .style("left", (d3.event.pageX - 25) + "px")
       .style("top", (d3.event.pageY - 28) + "px");
   })
@@ -253,99 +228,22 @@ function sumAll(d) {
       .duration(500)
       .style("opacity", 0);
   })
-      .attr("x", function (d) {
-    return x(d.x);
+  .attr("x", function (d) {
+    return 0;
   })
     .attr("y",  function(d) {
-    return height;
+    return y(d.y);
   })
-    .attr("width", 8)
-    .attr("height", 0)
+    .attr("width", 0)
+    .attr("height", 8)
     .transition().duration(1500)
-    .attr("y", function (d) {
-    return y(d.y + d.y0);
+    .attr("x", function (d) {
+    return x(d.x0);
   })
-    .attr("height", function (d) {
-    return y(d.y0) - y(d.y + d.y0);
-  });
-
-
-  
-/*
-  var yLineConfirmedCases = d3.scale.linear()
-  .rangeRound([height, 0])
-  .domain([
-    0, d3.max(barDataset, function (d) {
-      return cumule ? d.totalConfirmedCases : d.confirmedCases;
-    })
-  ]);
-
-  var confirmedCasesFCT = d3.svg.line()
-    .x(function(d) { return x(d.day); })
-    .y(function(d) { return yLineConfirmedCases(cumule ? d.totalConfirmedCases : d.confirmedCases); })
-    .interpolate('linear');
-
-  svg.append("g")
-    //.attr("transform", d => "translate(0," + -(height/2) + ")")
-    .attr("class", "line")
-    .append('path')
-    .attr('stroke', z(0))
-    .attr('stroke-width', 2)
-    .attr('fill', 'none')
-    .attr('d', "M0,307L1138,307")
-    .transition().duration(3000)
-    .attr('d', confirmedCasesFCT(barDataset))
-    ;
-
-
-
-    var yLinedeath = d3.scale.linear()
-    .rangeRound([height, 0])
-    .domain([
-      0, d3.max(barDataset, function (d) {
-        return cumule ? d.totalDeath :  d.death;
-      })
-    ]);
-  
-    var deathFCT = d3.svg.line()
-      .x(function(d) { return x(d.day); })
-      .y(function(d) { return yLinedeath(cumule ? d.totalDeath :  d.death); })
-      .interpolate('linear');
-  
-    svg.append("g")
-      .attr("class", "line")
-      .append('path')
-      .attr('d', deathFCT(barDataset))
-      .attr('stroke', z(1))
-      .attr('stroke-width', 2)
-      .attr('fill', 'none');
-
-
-
-      var yLinerecovered = d3.scale.linear()
-      .rangeRound([height, 0])
-      .domain([
-        0, d3.max(barDataset, function (d) {
-          return cumule ? d.totalRecovered :  d.recovered;
-        })
-      ]);
-    
-      var recoveredFCT = d3.svg.line()
-        .x(function(d) { return x(d.day); })
-        .y(function(d) { return yLinerecovered(cumule ? d.totalRecovered :  d.recovered); })
-        .interpolate('linear');
-    
-      svg.append("g")
-        .attr("class", "line")
-        .append('path')
-        .attr('d', recoveredFCT(barDataset))
-        .attr('stroke', z(2))
-        .attr('stroke-width', 2)
-        .attr('fill', 'none');
-        */
+    .attr("width", function (d) {
+    return x(d.x);
+  })  ;
 }
-
-
 
 $('.count').each(function () {
   $(this).prop('Counter',0).animate({
