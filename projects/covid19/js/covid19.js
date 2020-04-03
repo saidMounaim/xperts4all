@@ -40,10 +40,15 @@ var barDataset = [
   {"day": 25,"date": "26/03/2020", "totalNegatifTests" : 931, "totalConfirmedCases" : 275, "totalDeath" : 10, "totalRecovered" : 8, "negatifTests" :191, "confirmedCases" : 50, "death" : 4, "recovered" :1, "plusPercent" :22},
   {"day": 26,"date": "27/03/2020", "totalNegatifTests" : 1423, "totalConfirmedCases" : 345, "totalDeath" : 23, "totalRecovered" : 11, "negatifTests" :492, "confirmedCases" : 70, "death" : 13, "recovered" :3, "plusPercent" :25},
   {"day": 27,"date": "28/03/2020", "totalNegatifTests" : 1574, "totalConfirmedCases" : 402, "totalDeath" : 25, "totalRecovered" : 12, "negatifTests" :151, "confirmedCases" : 57, "death" : 2, "recovered" :1, "plusPercent" :17},
-  {"day": 28,"date": "29/03/2020", "totalNegatifTests" : 1665, "totalConfirmedCases" : 463, "totalDeath" : 26, "totalRecovered" : 13, "negatifTests" :91, "confirmedCases" : 61, "death" : 1, "recovered" :1, "plusPercent" :15},
-  {"day": 29,"date": "30/03/2020", "totalNegatifTests" : 2107, "totalConfirmedCases" : 534, "totalDeath" : 33, "totalRecovered" : 14, "negatifTests" :442, "confirmedCases" : 71, "death" : 7, "recovered" :1, "plusPercent" :15},
-  {"day": 30,"date": "31/03/2020", "totalNegatifTests" : 2298, "totalConfirmedCases" : 602, "totalDeath" : 36, "totalRecovered" : 24, "negatifTests" :191, "confirmedCases" : 68, "death" : 3, "recovered" :10, "plusPercent" :13},
-   
+  {"day": 28,"date": "29/03/2020", "totalNegatifTests" : 1794, "totalConfirmedCases" : 479, "totalDeath" : 26, "totalRecovered" : 13, "negatifTests" :220, "confirmedCases" : 77, "death" : 1, "recovered" :1, "plusPercent" :19},
+  {"day": 29,"date": "30/03/2020", "totalNegatifTests" : 2195, "totalConfirmedCases" : 556, "totalDeath" : 33, "totalRecovered" : 15, "negatifTests" :401, "confirmedCases" : 77, "death" : 7, "recovered" :2, "plusPercent" :16},
+  {"day": 30,"date": "31/03/2020", "totalNegatifTests" : 2462, "totalConfirmedCases" : 617, "totalDeath" : 36, "totalRecovered" : 24, "negatifTests" :267, "confirmedCases" : 61, "death" : 3, "recovered" :9, "plusPercent" :11},
+  {"day": 31,"date": "01/04/2020", "totalNegatifTests" : 2691, "totalConfirmedCases" : 654, "totalDeath" : 39, "totalRecovered" : 29, "negatifTests" :229, "confirmedCases" : 37, "death" : 3, "recovered" :5, "plusPercent" :6},
+  {"day": 32,"date": "02/04/2020", "totalNegatifTests" : 2916, "totalConfirmedCases" : 708, "totalDeath" : 44, "totalRecovered" : 31, "negatifTests" :225, "confirmedCases" : 54, "death" : 5, "recovered" :2, "plusPercent" :8},
+  {"day": 33,"date": "03/04/2020", "totalNegatifTests" : 3062, "totalConfirmedCases" : 761, "totalDeath" : 47, "totalRecovered" : 56, "negatifTests" :146, "confirmedCases" : 53, "death" : 3, "recovered" :25, "plusPercent" :7},
+
+
+
 ];
 
 
@@ -461,17 +466,17 @@ function drawWaffle() {
 
 function drawMap() {
   const data = {
-    "Casablanca-Settat":"176",
-    "Fès-Meknès":"105",
-    "Rabat-Salé-Kénitra":"105",
-    "Marrakech-Safi":"107",
-    "Tanger-Tetouan-Al Hoceima":"39",
-    "Oriental":"23",
-    "Souss-Massa":"17",
-    "Béni Mellal-Khénifra":"18",
-    "Drâa-Tafilalet":"11",
+    "Casablanca-Settat":"224",
+    "Marrakech-Safi":"129",
+    "Rabat-Salé-Kénitra":"122",
+    "Fès-Meknès":"117",
+    "Tanger-Tetouan-Al Hoceima":"58",
+    "Oriental":"38",
+    "Béni Mellal-Khénifra":"25",
+    "Drâa-Tafilalet":"24",
+    "Souss-Massa":"19",
+    "Laayoun-saqialhamra":"4",
     "Guelmim-Oued Noun":"1",
-    "Laayoun-saqialhamra":"0",
     "Dakhla-ouadidahab":"0",
   };
 
